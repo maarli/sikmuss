@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated istarmodel1 -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="istarmodel1.presentation.IstarmodelModelWizardID"
+            name="%_UI_IstarmodelModelWizard_label"
+            class="istarmodel1.presentation.IstarmodelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/IstarmodelModelFile.gif">
+         <description>%_UI_IstarmodelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated istarmodel1 -->
+      <editor
+            id="istarmodel1.presentation.IstarmodelEditorID"
+            name="%_UI_IstarmodelEditor_label"
+            icon="icons/full/obj16/IstarmodelModelFile.gif"
+            extensions="istarmodel1,istarmodel"
+            class="istarmodel1.presentation.IstarmodelEditor"
+            contributorClass="istarmodel1.presentation.IstarmodelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

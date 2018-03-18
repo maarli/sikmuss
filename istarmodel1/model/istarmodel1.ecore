@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="istarmodel1" nsURI="http://www.eclipse.org/sirius/example/istarmodel1"
+    nsPrefix="istarmodel1">
+  <eClassifiers xsi:type="ecore:EClass" name="ActorContainer">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contains" upperBound="-1"
+        eType="#//IntentionalElement" containment="true" resolveProxies="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="has" eType="#//ActorReal"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AgentContainer" eSuperTypes="#//ActorContainer">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="plays" upperBound="-1"
+        eType="#//RoleContainer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleContainer" eSuperTypes="#//ActorContainer"/>
+  <eClassifiers xsi:type="ecore:EClass" name="IntentionalElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contributesToHelp" upperBound="-1"
+        eType="#//Quality"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contributesToHurt" upperBound="-1"
+        eType="#//Quality"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contributesToBreak" upperBound="-1"
+        eType="#//Quality"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contributesToMake" upperBound="-1"
+        eType="#//Quality"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GoalTaskElement" abstract="true" eSuperTypes="#//IntentionalElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="andRefinement" upperBound="-1"
+        eType="#//GoalTaskElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="orRefinement" upperBound="-1"
+        eType="#//GoalTaskElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Quality" eSuperTypes="#//IntentionalElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifies" upperBound="-1"
+        eType="#//IntentionalElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ResourceElement" abstract="true" eSuperTypes="#//IntentionalElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="neededBy" upperBound="-1"
+        eType="#//Task"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Goal" eSuperTypes="#//GoalTaskElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Task" eSuperTypes="#//GoalTaskElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="provides" upperBound="-1"
+        eType="#//Resource"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Resource" eSuperTypes="#//ResourceElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagramLink" eType="#//Resource"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IstarDiagram">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actors" upperBound="-1"
+        eType="#//ActorContainer" containment="true" resolveProxies="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+        eType="#//IntentionalElement" containment="true" resolveProxies="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodes" upperBound="-1"
+        eType="#//ActorReal" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DiagramContainer">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagrams" upperBound="-1"
+        eType="#//IstarDiagram" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleNode" eSuperTypes="#//ActorReal">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="isa" eType="#//RoleNode"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AgentNode" eSuperTypes="#//ActorReal"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ActorReal">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="participatesin" eType="#//ActorReal"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ActorNode" eSuperTypes="#//ActorReal"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ActorContainerImp" eSuperTypes="#//ActorContainer"/>
+</ecore:EPackage>

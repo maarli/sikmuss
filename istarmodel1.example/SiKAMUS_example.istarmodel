@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarmodel1:DiagramContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:istarmodel1="http://www.eclipse.org/sirius/example/istarmodel1">
+  <diagrams name="new">
+    <actors xsi:type="istarmodel1:Role" name="New Role">
+      <contains xsi:type="istarmodel1:Task" name="hello"/>
+      <contains xsi:type="istarmodel1:Goal" name="New Goal"/>
+    </actors>
+    <actors xsi:type="istarmodel1:Role" name="New Role">
+      <contains xsi:type="istarmodel1:Task" name="New Task" dependsonQuality="//@diagrams.0/@elements.4" dependsonResource="//@diagrams.0/@actors.0/@contains.0"/>
+      <contains xsi:type="istarmodel1:Goal" name="New Goal" contributesToBreak="//@diagrams.0/@actors.1/@contains.2" dependsonTask="//@diagrams.0/@actors.0/@contains.1" dependsonResource="//@diagrams.0/@elements.2" dependsonGoal="//@diagrams.0/@elements.0" orRefinement="//@diagrams.0/@actors.0/@contains.0"/>
+      <contains xsi:type="istarmodel1:Quality" name="New Quality"/>
+    </actors>
+    <actors xsi:type="istarmodel1:Agent" name="New Agent">
+      <contains xsi:type="istarmodel1:Goal" name="New Goal"/>
+      <contains xsi:type="istarmodel1:Task" name="New Task"/>
+    </actors>
+    <actors xsi:type="istarmodel1:Role" name="New Role">
+      <contains xsi:type="istarmodel1:Quality" name="New Quality"/>
+    </actors>
+    <elements xsi:type="istarmodel1:Goal" name="New Goal"/>
+    <elements xsi:type="istarmodel1:Task" name="New Task"/>
+    <elements xsi:type="istarmodel1:Resource" name="New Resource"/>
+    <elements xsi:type="istarmodel1:Task" name="New Task"/>
+    <elements xsi:type="istarmodel1:Goal" name="New Goal"/>
+    <sampleelements/>
+    <sampleelements/>
+    <sampleelements/>
+    <sampleelements/>
+  </diagrams>
+</istarmodel1:DiagramContainer>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="istarmodel1.design.Activator"
+               id="istarmodel1.design"
+	       name="istarmodel1">
+    </component>
+  </extension>
+  <extension
+        point="org.eclipse.sirius.common.ui.savedialogextension">
+     <saveExtensionDescription
+           class="istarmodel1.services.CustomSaveDialog">
+     </saveExtensionDescription>
+  </extension>
+  
+  <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="istarmodel1.services.TabbarSaveButtonHandler"
+            id="istarmodel1.commands.command"
+            name="Sample Command">
+      </command>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="istarmodel1.services.TabbarSaveButtonHandler"
+            commandId="istarmodel1.commands.command">
+      </handler>
+   </extension>
+  
+  <extension point="org.eclipse.ui.menus">
+    <menuContribution
+          allPopups="false"
+          locationURI="toolbar:org.eclipse.sirius.diagram.ui.tabbar?after=additions">
+        <command
+              commandId="istarmodel1.commands.command"
+              id="org.eclipse.sirius.diagram.tabbar.test.action.on.diagramelement"
+              label="Action on DDiagramElement"
+              tooltip="Action on DDiagramElement">
+        </command>
+    </menuContribution>
+ </extension>
+  <extension
+        point="org.eclipse.ui.commands">
+     <command
+           defaultHandler="istarmodel.design.Command1Handler"
+           id="istarmodel1.design.command1"
+           name="Exit">
+     </command>
+  </extension>
+  
+</plugin>
