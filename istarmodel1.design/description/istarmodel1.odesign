@@ -167,11 +167,11 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="DependencyEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetTaskDependencyEdge']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:depend" pathExpression="var:element" pathNodeMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode']">
-          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+        <edgeMappings name="DependencyEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetTaskDependencyEdge']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:depend">
+          <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-            <centerLabelStyleDescription showIcon="false">
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="DependsOn">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
@@ -418,18 +418,66 @@
           </style>
         </containerMappings>
         <toolSections name="Elements">
-          <ownedTools xsi:type="tool_1:ContainerCreationDescription" name="RoleContainerCreation" label="Role Container" forceRefresh="true" containerMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']" iconPath="/istarmodel1.design/icons/Role_icon.png">
+          <ownedTools xsi:type="tool_1:ContainerCreationDescription" name="ActorContainerCreation" label="SR Actor " forceRefresh="true" containerMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']" iconPath="/istarmodel1.design/icons/sractor.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::ActorContainerImp" referenceName="actors">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Actor Container'/]"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.ActorNode" referenceName="has">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Actor Node'/]"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:ContainerCreationDescription" name="RoleContainerCreation" label="SR Role" forceRefresh="true" containerMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']" iconPath="/istarmodel1.design/icons/rollsr.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleContainer" referenceName="actors">
                   <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Role container'/]"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.RoleNode" referenceName="has">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Role Node'/]"/>
+                  </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="RoleNameCreation" label="Role Name" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']" iconPath="/istarmodel1.design/icons/role.png">
+          <ownedTools xsi:type="tool_1:ContainerCreationDescription" name="AgentContainerCreation" label="SR Agent " forceRefresh="true" containerMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']" iconPath="/istarmodel1.design/icons/agentsr.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentContainer" referenceName="actors">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Agent container'/]"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentNode" referenceName="has">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Agent Name'/]"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="RoleActorCreation" label="SD Actor " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName']" iconPath="/istarmodel1.design/icons/Actorr.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::IstarDiagram)">
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleNode"/>
+                </subModelOperations>
+                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::ActorContainerImp)">
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.ActorNode" referenceName="has">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Actor Node'/]"/>
+                  </subModelOperations>
+                </subModelOperations>
+                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::Agent)"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="RoleNameCreation" label="SD Role " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']" iconPath="/istarmodel1.design/icons/rol.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -445,21 +493,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:ContainerCreationDescription" name="AgentContainerCreation" label="Agent Container" forceRefresh="true" containerMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']" iconPath="/istarmodel1.design/icons/Role_icon.png">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentContainer" referenceName="actors">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Agent container'/]"/>
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentNode" referenceName="has">
-                    <subModelOperations xsi:type="tool:SetValue"/>
-                  </subModelOperations>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="AgentNameCreation" label="Agent Name" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='AgentName']" iconPath="/istarmodel1.design/icons/agent.png">
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="AgentNameCreation" label="SD Agent " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='AgentName']" iconPath="/istarmodel1.design/icons/agent00.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -475,35 +509,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:ContainerCreationDescription" name="ActorContainerCreation" label="Actor Container" forceRefresh="true" containerMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']" iconPath="/istarmodel1.design/icons/Role_icon.png">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::ActorContainerImp" referenceName="actors">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Actor Container'/]"/>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="RoleActorCreation" label="Actor Name" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName']" iconPath="/istarmodel1.design/icons/role.png">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::IstarDiagram)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleNode"/>
-                </subModelOperations>
-                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::ActorContainerImp)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.RoleNode" referenceName="has">
-                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Actor Node'/]"/>
-                  </subModelOperations>
-                </subModelOperations>
-                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::Agent)"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="GoalCreation" label="Goal" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2']" iconPath="/istarmodel1.design/icons/Goal_icon.png">
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="GoalCreation" label="Goal" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2']" iconPath="/istarmodel1.design/icons/goal1.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -524,14 +530,14 @@
                   </subModelOperations>
                 </subModelOperations>
                 <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::ActorContainerImp)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::Goal" referenceName="Goal">
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::Goal" referenceName="contains">
                     <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Goal'/]"/>
                   </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="TaskCreation" label="Task" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" iconPath="/istarmodel1.design/icons/Task_icon.png">
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="TaskCreation" label="Task" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2']" iconPath="/istarmodel1.design/icons/task1.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -559,7 +565,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="QualityCreation" label="Quality" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" iconPath="/istarmodel1.design/icons/Quality_icon.png">
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="QualityCreation" label="Quality" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2']" iconPath="/istarmodel1.design/icons/quality1.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -587,7 +593,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="ResourceCreation" label="Resource" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" iconPath="/istarmodel1.design/icons/Resource_icon.png">
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="ResourceCreation" label="Resource" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2']" iconPath="/istarmodel1.design/icons/Resource1.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -695,6 +701,9 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
                 <subModelOperations xsi:type="tool:SetValue" featureName="qualifies" valueExpression="var:target"/>
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.Goal" referenceName="elements">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Goal'/]"/>
+                </subModelOperations>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>

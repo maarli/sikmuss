@@ -65,6 +65,7 @@ public class IntentionalElementItemProvider
 			addContributesToHurtPropertyDescriptor(object);
 			addContributesToBreakPropertyDescriptor(object);
 			addContributesToMakePropertyDescriptor(object);
+			addDependPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -171,6 +172,28 @@ public class IntentionalElementItemProvider
 				 getString("_UI_IntentionalElement_contributesToMake_feature"),
 				 getString("_UI_PropertyDescriptor_description", "_UI_IntentionalElement_contributesToMake_feature", "_UI_IntentionalElement_type"),
 				 IstarmodelPackage.Literals.INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE,
+				 true,
+				 false,
+				 true,
+				 null,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Depend feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addDependPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_IntentionalElement_depend_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_IntentionalElement_depend_feature", "_UI_IntentionalElement_type"),
+				 IstarmodelPackage.Literals.INTENTIONAL_ELEMENT__DEPEND,
 				 true,
 				 false,
 				 true,

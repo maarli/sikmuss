@@ -338,6 +338,15 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EReference getIntentionalElement_Depend() {
+		return (EReference)intentionalElementEClass.getEStructuralFeatures().get(5);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getGoalTaskElement() {
 		return goalTaskElementEClass;
 	}
@@ -620,6 +629,7 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 		createEReference(intentionalElementEClass, INTENTIONAL_ELEMENT__CONTRIBUTES_TO_HURT);
 		createEReference(intentionalElementEClass, INTENTIONAL_ELEMENT__CONTRIBUTES_TO_BREAK);
 		createEReference(intentionalElementEClass, INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE);
+		createEReference(intentionalElementEClass, INTENTIONAL_ELEMENT__DEPEND);
 
 		goalTaskElementEClass = createEClass(GOAL_TASK_ELEMENT);
 		createEReference(goalTaskElementEClass, GOAL_TASK_ELEMENT__AND_REFINEMENT);
@@ -720,6 +730,7 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 		initEReference(getIntentionalElement_ContributesToHurt(), this.getQuality(), null, "contributesToHurt", null, 0, -1, IntentionalElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getIntentionalElement_ContributesToBreak(), this.getQuality(), null, "contributesToBreak", null, 0, -1, IntentionalElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getIntentionalElement_ContributesToMake(), this.getQuality(), null, "contributesToMake", null, 0, -1, IntentionalElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getIntentionalElement_Depend(), this.getIntentionalElement(), null, "depend", null, 0, 1, IntentionalElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(goalTaskElementEClass, GoalTaskElement.class, "GoalTaskElement", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getGoalTaskElement_AndRefinement(), this.getGoalTaskElement(), null, "andRefinement", null, 0, -1, GoalTaskElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

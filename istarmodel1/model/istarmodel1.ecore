@@ -24,6 +24,7 @@
         eType="#//Quality"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="contributesToMake" upperBound="-1"
         eType="#//Quality"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="depend" eType="#//IntentionalElement"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GoalTaskElement" abstract="true" eSuperTypes="#//IntentionalElement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="andRefinement" upperBound="-1"

@@ -621,4 +621,17 @@
     <element xsi:nil="true"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PdQagibKEeicA-NubhadAg" points="[54, -28, -151, 77]$[261, -138, 56, -33]"/>
   </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kSBq0Cq4EeitaMZtHXJbsg" type="4002" source="_Dzc4ylDsEeax-__-42X5zA" target="_Dzc4ylDsEeax-__-42X5zA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kSBq0yq4EeitaMZtHXJbsg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kSCR4Cq4EeitaMZtHXJbsg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kSCR4Sq4EeitaMZtHXJbsg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kSCR4iq4EeitaMZtHXJbsg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kSBq0Sq4EeitaMZtHXJbsg" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="istarmodel1.ecore#//IntentionalElement/depend"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kSBq0iq4EeitaMZtHXJbsg" points="[-2, -12, 0, -11]$[0, -12, 2, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kSKNsCq4EeitaMZtHXJbsg" id="(0.5448275862068965,0.1791044776119403)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kSKNsSq4EeitaMZtHXJbsg" id="(0.5310344827586206,0.16417910447761194)"/>
+  </edges>
 </notation:Diagram>
