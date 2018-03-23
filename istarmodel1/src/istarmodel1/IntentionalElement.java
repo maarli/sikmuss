@@ -4,8 +4,6 @@ package istarmodel1;
 
 import org.eclipse.emf.common.util.EList;
 
-import org.eclipse.emf.ecore.EObject;
-
 /**
  * <!-- begin-user-doc -->
  * A representation of the model object '<em><b>Intentional Element</b></em>'.
@@ -20,14 +18,13 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link istarmodel1.IntentionalElement#getContributesToHurt <em>Contributes To Hurt</em>}</li>
  *   <li>{@link istarmodel1.IntentionalElement#getContributesToBreak <em>Contributes To Break</em>}</li>
  *   <li>{@link istarmodel1.IntentionalElement#getContributesToMake <em>Contributes To Make</em>}</li>
- *   <li>{@link istarmodel1.IntentionalElement#getDepend <em>Depend</em>}</li>
  * </ul>
  *
  * @see istarmodel1.IstarmodelPackage#getIntentionalElement()
  * @model abstract="true"
  * @generated
  */
-public interface IntentionalElement extends EObject {
+public interface IntentionalElement extends Element {
 	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
@@ -117,31 +114,5 @@ public interface IntentionalElement extends EObject {
 	 * @generated
 	 */
 	EList<Quality> getContributesToMake();
-
-	/**
-	 * Returns the value of the '<em><b>Depend</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Depend</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Depend</em>' reference.
-	 * @see #setDepend(IntentionalElement)
-	 * @see istarmodel1.IstarmodelPackage#getIntentionalElement_Depend()
-	 * @model
-	 * @generated
-	 */
-	IntentionalElement getDepend();
-
-	/**
-	 * Sets the value of the '{@link istarmodel1.IntentionalElement#getDepend <em>Depend</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Depend</em>' reference.
-	 * @see #getDepend()
-	 * @generated
-	 */
-	void setDepend(IntentionalElement value);
 
 } // IntentionalElement

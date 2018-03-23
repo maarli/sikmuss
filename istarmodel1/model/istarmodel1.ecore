@@ -14,7 +14,8 @@
         eType="#//RoleContainer"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RoleContainer" eSuperTypes="#//ActorContainer"/>
-  <eClassifiers xsi:type="ecore:EClass" name="IntentionalElement" abstract="true">
+  <eClassifiers xsi:type="ecore:EClass" name="IntentionalElement" abstract="true"
+      eSuperTypes="#//Element">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="contributesToHelp" upperBound="-1"
         eType="#//Quality"/>
@@ -24,7 +25,6 @@
         eType="#//Quality"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="contributesToMake" upperBound="-1"
         eType="#//Quality"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="depend" eType="#//IntentionalElement"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GoalTaskElement" abstract="true" eSuperTypes="#//IntentionalElement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="andRefinement" upperBound="-1"
@@ -65,10 +65,14 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="isa" eType="#//RoleNode"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AgentNode" eSuperTypes="#//ActorReal"/>
-  <eClassifiers xsi:type="ecore:EClass" name="ActorReal">
+  <eClassifiers xsi:type="ecore:EClass" name="ActorReal" eSuperTypes="#//Element">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="participatesin" eType="#//ActorReal"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ActorNode" eSuperTypes="#//ActorReal"/>
   <eClassifiers xsi:type="ecore:EClass" name="ActorContainerImp" eSuperTypes="#//ActorContainer"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Element">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="depend" upperBound="-1"
+        eType="#//Element"/>
+  </eClassifiers>
 </ecore:EPackage>

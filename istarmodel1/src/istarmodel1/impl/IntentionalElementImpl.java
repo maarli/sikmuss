@@ -13,11 +13,7 @@ import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
-
-import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 
 /**
@@ -33,12 +29,11 @@ import org.eclipse.emf.ecore.util.EObjectResolvingEList;
  *   <li>{@link istarmodel1.impl.IntentionalElementImpl#getContributesToHurt <em>Contributes To Hurt</em>}</li>
  *   <li>{@link istarmodel1.impl.IntentionalElementImpl#getContributesToBreak <em>Contributes To Break</em>}</li>
  *   <li>{@link istarmodel1.impl.IntentionalElementImpl#getContributesToMake <em>Contributes To Make</em>}</li>
- *   <li>{@link istarmodel1.impl.IntentionalElementImpl#getDepend <em>Depend</em>}</li>
  * </ul>
  *
  * @generated
  */
-public abstract class IntentionalElementImpl extends MinimalEObjectImpl.Container implements IntentionalElement {
+public abstract class IntentionalElementImpl extends ElementImpl implements IntentionalElement {
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -98,16 +93,6 @@ public abstract class IntentionalElementImpl extends MinimalEObjectImpl.Containe
 	 * @ordered
 	 */
 	protected EList<Quality> contributesToMake;
-
-	/**
-	 * The cached value of the '{@link #getDepend() <em>Depend</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getDepend()
-	 * @generated
-	 * @ordered
-	 */
-	protected IntentionalElement depend;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -202,44 +187,6 @@ public abstract class IntentionalElementImpl extends MinimalEObjectImpl.Containe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public IntentionalElement getDepend() {
-		if (depend != null && depend.eIsProxy()) {
-			InternalEObject oldDepend = (InternalEObject)depend;
-			depend = (IntentionalElement)eResolveProxy(oldDepend);
-			if (depend != oldDepend) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, IstarmodelPackage.INTENTIONAL_ELEMENT__DEPEND, oldDepend, depend));
-			}
-		}
-		return depend;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IntentionalElement basicGetDepend() {
-		return depend;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDepend(IntentionalElement newDepend) {
-		IntentionalElement oldDepend = depend;
-		depend = newDepend;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, IstarmodelPackage.INTENTIONAL_ELEMENT__DEPEND, oldDepend, depend));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
@@ -253,9 +200,6 @@ public abstract class IntentionalElementImpl extends MinimalEObjectImpl.Containe
 				return getContributesToBreak();
 			case IstarmodelPackage.INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE:
 				return getContributesToMake();
-			case IstarmodelPackage.INTENTIONAL_ELEMENT__DEPEND:
-				if (resolve) return getDepend();
-				return basicGetDepend();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -288,9 +232,6 @@ public abstract class IntentionalElementImpl extends MinimalEObjectImpl.Containe
 				getContributesToMake().clear();
 				getContributesToMake().addAll((Collection<? extends Quality>)newValue);
 				return;
-			case IstarmodelPackage.INTENTIONAL_ELEMENT__DEPEND:
-				setDepend((IntentionalElement)newValue);
-				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -318,9 +259,6 @@ public abstract class IntentionalElementImpl extends MinimalEObjectImpl.Containe
 			case IstarmodelPackage.INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE:
 				getContributesToMake().clear();
 				return;
-			case IstarmodelPackage.INTENTIONAL_ELEMENT__DEPEND:
-				setDepend((IntentionalElement)null);
-				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -343,8 +281,6 @@ public abstract class IntentionalElementImpl extends MinimalEObjectImpl.Containe
 				return contributesToBreak != null && !contributesToBreak.isEmpty();
 			case IstarmodelPackage.INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE:
 				return contributesToMake != null && !contributesToMake.isEmpty();
-			case IstarmodelPackage.INTENTIONAL_ELEMENT__DEPEND:
-				return depend != null;
 		}
 		return super.eIsSet(featureID);
 	}

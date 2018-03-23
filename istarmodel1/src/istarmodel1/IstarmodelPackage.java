@@ -231,6 +231,43 @@ public interface IstarmodelPackage extends EPackage {
 	int ROLE_CONTAINER_OPERATION_COUNT = ACTOR_CONTAINER_OPERATION_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link istarmodel1.impl.ElementImpl <em>Element</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see istarmodel1.impl.ElementImpl
+	 * @see istarmodel1.impl.IstarmodelPackageImpl#getElement()
+	 * @generated
+	 */
+	int ELEMENT = 17;
+
+	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ELEMENT__DEPEND = 0;
+
+	/**
+	 * The number of structural features of the '<em>Element</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ELEMENT_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Element</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ELEMENT_OPERATION_COUNT = 0;
+
+	/**
 	 * The meta object id for the '{@link istarmodel1.impl.IntentionalElementImpl <em>Intentional Element</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -241,13 +278,22 @@ public interface IstarmodelPackage extends EPackage {
 	int INTENTIONAL_ELEMENT = 3;
 
 	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTENTIONAL_ELEMENT__DEPEND = ELEMENT__DEPEND;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int INTENTIONAL_ELEMENT__NAME = 0;
+	int INTENTIONAL_ELEMENT__NAME = ELEMENT_FEATURE_COUNT + 0;
 
 	/**
 	 * The feature id for the '<em><b>Contributes To Help</b></em>' reference list.
@@ -256,7 +302,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int INTENTIONAL_ELEMENT__CONTRIBUTES_TO_HELP = 1;
+	int INTENTIONAL_ELEMENT__CONTRIBUTES_TO_HELP = ELEMENT_FEATURE_COUNT + 1;
 
 	/**
 	 * The feature id for the '<em><b>Contributes To Hurt</b></em>' reference list.
@@ -265,7 +311,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int INTENTIONAL_ELEMENT__CONTRIBUTES_TO_HURT = 2;
+	int INTENTIONAL_ELEMENT__CONTRIBUTES_TO_HURT = ELEMENT_FEATURE_COUNT + 2;
 
 	/**
 	 * The feature id for the '<em><b>Contributes To Break</b></em>' reference list.
@@ -274,7 +320,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int INTENTIONAL_ELEMENT__CONTRIBUTES_TO_BREAK = 3;
+	int INTENTIONAL_ELEMENT__CONTRIBUTES_TO_BREAK = ELEMENT_FEATURE_COUNT + 3;
 
 	/**
 	 * The feature id for the '<em><b>Contributes To Make</b></em>' reference list.
@@ -283,16 +329,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE = 4;
-
-	/**
-	 * The feature id for the '<em><b>Depend</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int INTENTIONAL_ELEMENT__DEPEND = 5;
+	int INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE = ELEMENT_FEATURE_COUNT + 4;
 
 	/**
 	 * The number of structural features of the '<em>Intentional Element</em>' class.
@@ -301,7 +338,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int INTENTIONAL_ELEMENT_FEATURE_COUNT = 6;
+	int INTENTIONAL_ELEMENT_FEATURE_COUNT = ELEMENT_FEATURE_COUNT + 5;
 
 	/**
 	 * The number of operations of the '<em>Intentional Element</em>' class.
@@ -310,7 +347,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int INTENTIONAL_ELEMENT_OPERATION_COUNT = 0;
+	int INTENTIONAL_ELEMENT_OPERATION_COUNT = ELEMENT_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link istarmodel1.impl.GoalTaskElementImpl <em>Goal Task Element</em>}' class.
@@ -321,6 +358,15 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 */
 	int GOAL_TASK_ELEMENT = 4;
+
+	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GOAL_TASK_ELEMENT__DEPEND = INTENTIONAL_ELEMENT__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -366,15 +412,6 @@ public interface IstarmodelPackage extends EPackage {
 	 * @ordered
 	 */
 	int GOAL_TASK_ELEMENT__CONTRIBUTES_TO_MAKE = INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE;
-
-	/**
-	 * The feature id for the '<em><b>Depend</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int GOAL_TASK_ELEMENT__DEPEND = INTENTIONAL_ELEMENT__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>And Refinement</b></em>' reference list.
@@ -423,6 +460,15 @@ public interface IstarmodelPackage extends EPackage {
 	int QUALITY = 5;
 
 	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY__DEPEND = INTENTIONAL_ELEMENT__DEPEND;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -468,15 +514,6 @@ public interface IstarmodelPackage extends EPackage {
 	int QUALITY__CONTRIBUTES_TO_MAKE = INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE;
 
 	/**
-	 * The feature id for the '<em><b>Depend</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int QUALITY__DEPEND = INTENTIONAL_ELEMENT__DEPEND;
-
-	/**
 	 * The feature id for the '<em><b>Qualifies</b></em>' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -512,6 +549,15 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 */
 	int RESOURCE_ELEMENT = 6;
+
+	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RESOURCE_ELEMENT__DEPEND = INTENTIONAL_ELEMENT__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -559,15 +605,6 @@ public interface IstarmodelPackage extends EPackage {
 	int RESOURCE_ELEMENT__CONTRIBUTES_TO_MAKE = INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE;
 
 	/**
-	 * The feature id for the '<em><b>Depend</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RESOURCE_ELEMENT__DEPEND = INTENTIONAL_ELEMENT__DEPEND;
-
-	/**
 	 * The feature id for the '<em><b>Needed By</b></em>' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -603,6 +640,15 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 */
 	int GOAL = 7;
+
+	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GOAL__DEPEND = GOAL_TASK_ELEMENT__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -648,15 +694,6 @@ public interface IstarmodelPackage extends EPackage {
 	 * @ordered
 	 */
 	int GOAL__CONTRIBUTES_TO_MAKE = GOAL_TASK_ELEMENT__CONTRIBUTES_TO_MAKE;
-
-	/**
-	 * The feature id for the '<em><b>Depend</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int GOAL__DEPEND = GOAL_TASK_ELEMENT__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>And Refinement</b></em>' reference list.
@@ -705,6 +742,15 @@ public interface IstarmodelPackage extends EPackage {
 	int TASK = 8;
 
 	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK__DEPEND = GOAL_TASK_ELEMENT__DEPEND;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -748,15 +794,6 @@ public interface IstarmodelPackage extends EPackage {
 	 * @ordered
 	 */
 	int TASK__CONTRIBUTES_TO_MAKE = GOAL_TASK_ELEMENT__CONTRIBUTES_TO_MAKE;
-
-	/**
-	 * The feature id for the '<em><b>Depend</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int TASK__DEPEND = GOAL_TASK_ELEMENT__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>And Refinement</b></em>' reference list.
@@ -814,6 +851,15 @@ public interface IstarmodelPackage extends EPackage {
 	int RESOURCE = 9;
 
 	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RESOURCE__DEPEND = RESOURCE_ELEMENT__DEPEND;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -857,15 +903,6 @@ public interface IstarmodelPackage extends EPackage {
 	 * @ordered
 	 */
 	int RESOURCE__CONTRIBUTES_TO_MAKE = RESOURCE_ELEMENT__CONTRIBUTES_TO_MAKE;
-
-	/**
-	 * The feature id for the '<em><b>Depend</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RESOURCE__DEPEND = RESOURCE_ELEMENT__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>Needed By</b></em>' reference list.
@@ -1015,13 +1052,22 @@ public interface IstarmodelPackage extends EPackage {
 	int ACTOR_REAL = 14;
 
 	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ACTOR_REAL__DEPEND = ELEMENT__DEPEND;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ACTOR_REAL__NAME = 0;
+	int ACTOR_REAL__NAME = ELEMENT_FEATURE_COUNT + 0;
 
 	/**
 	 * The feature id for the '<em><b>Participatesin</b></em>' reference.
@@ -1030,7 +1076,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ACTOR_REAL__PARTICIPATESIN = 1;
+	int ACTOR_REAL__PARTICIPATESIN = ELEMENT_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of structural features of the '<em>Actor Real</em>' class.
@@ -1039,7 +1085,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ACTOR_REAL_FEATURE_COUNT = 2;
+	int ACTOR_REAL_FEATURE_COUNT = ELEMENT_FEATURE_COUNT + 2;
 
 	/**
 	 * The number of operations of the '<em>Actor Real</em>' class.
@@ -1048,7 +1094,7 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ACTOR_REAL_OPERATION_COUNT = 0;
+	int ACTOR_REAL_OPERATION_COUNT = ELEMENT_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link istarmodel1.impl.RoleNodeImpl <em>Role Node</em>}' class.
@@ -1059,6 +1105,15 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 */
 	int ROLE_NODE = 12;
+
+	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROLE_NODE__DEPEND = ACTOR_REAL__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -1116,6 +1171,15 @@ public interface IstarmodelPackage extends EPackage {
 	int AGENT_NODE = 13;
 
 	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AGENT_NODE__DEPEND = ACTOR_REAL__DEPEND;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1161,6 +1225,15 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 */
 	int ACTOR_NODE = 15;
+
+	/**
+	 * The feature id for the '<em><b>Depend</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ACTOR_NODE__DEPEND = ACTOR_REAL__DEPEND;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -1393,17 +1466,6 @@ public interface IstarmodelPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getIntentionalElement_ContributesToMake();
-
-	/**
-	 * Returns the meta object for the reference '{@link istarmodel1.IntentionalElement#getDepend <em>Depend</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Depend</em>'.
-	 * @see istarmodel1.IntentionalElement#getDepend()
-	 * @see #getIntentionalElement()
-	 * @generated
-	 */
-	EReference getIntentionalElement_Depend();
 
 	/**
 	 * Returns the meta object for class '{@link istarmodel1.GoalTaskElement <em>Goal Task Element</em>}'.
@@ -1690,6 +1752,27 @@ public interface IstarmodelPackage extends EPackage {
 	EClass getActorContainerImp();
 
 	/**
+	 * Returns the meta object for class '{@link istarmodel1.Element <em>Element</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Element</em>'.
+	 * @see istarmodel1.Element
+	 * @generated
+	 */
+	EClass getElement();
+
+	/**
+	 * Returns the meta object for the reference list '{@link istarmodel1.Element#getDepend <em>Depend</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Depend</em>'.
+	 * @see istarmodel1.Element#getDepend()
+	 * @see #getElement()
+	 * @generated
+	 */
+	EReference getElement_Depend();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1823,14 +1906,6 @@ public interface IstarmodelPackage extends EPackage {
 		 * @generated
 		 */
 		EReference INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE = eINSTANCE.getIntentionalElement_ContributesToMake();
-
-		/**
-		 * The meta object literal for the '<em><b>Depend</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference INTENTIONAL_ELEMENT__DEPEND = eINSTANCE.getIntentionalElement_Depend();
 
 		/**
 		 * The meta object literal for the '{@link istarmodel1.impl.GoalTaskElementImpl <em>Goal Task Element</em>}' class.
@@ -2073,6 +2148,24 @@ public interface IstarmodelPackage extends EPackage {
 		 * @generated
 		 */
 		EClass ACTOR_CONTAINER_IMP = eINSTANCE.getActorContainerImp();
+
+		/**
+		 * The meta object literal for the '{@link istarmodel1.impl.ElementImpl <em>Element</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see istarmodel1.impl.ElementImpl
+		 * @see istarmodel1.impl.IstarmodelPackageImpl#getElement()
+		 * @generated
+		 */
+		EClass ELEMENT = eINSTANCE.getElement();
+
+		/**
+		 * The meta object literal for the '<em><b>Depend</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ELEMENT__DEPEND = eINSTANCE.getElement_Depend();
 
 	}
 

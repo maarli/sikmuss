@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:validation="http://www.eclipse.org/sirius/description/validation/1.1.0" name="istarmodel1" version="12.0.0.2017041100">
   <ownedViewpoints name="istar" modelFileExtension="istarmodel1 istarmodel ">
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDropOutside']" name="IstarDiagram" domainClass="istarmodel1.IstarDiagram" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDropOutside']" name="IstarDiagram" domainClass="istarmodel1.IstarDiagram" enablePopupBars="true">
       <metamodel href="http://www.eclipse.org/sirius/example/istarmodel1#/"/>
       <validationSet name="Actor Validation">
         <ownedRules xsi:type="validation:SemanticValidationRule" name="AND_REFINEMENT_ERROR" level="ERROR" message="aql:self.name + ' needs at least 2 AndRefinement Edges'" targetClass="istarmodel1.GoalTaskElement">
@@ -26,28 +26,28 @@
         </ownedRules>
       </validationSet>
       <defaultLayer name="Default">
-        <nodeMappings name="DresourceNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:elements" doubleClickDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='ResourceDoubleClick']" domainClass="istarmodel1.Resource">
+        <nodeMappings name="DresourceNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:elements" doubleClickDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='ResourceDoubleClick']" domainClass="istarmodel1.Resource">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/Resource3.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="DgoalNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:elements" domainClass="istarmodel1.Goal">
+        <nodeMappings name="DgoalNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:elements" domainClass="istarmodel1.Goal">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/Goal3.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="DtaskNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:elements" domainClass="istarmodel1.Task">
+        <nodeMappings name="DtaskNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:elements" domainClass="istarmodel1.Task">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/Task3.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="DqualityNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:elements" domainClass="istarmodel1.Quality">
+        <nodeMappings name="DqualityNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:elements" domainClass="istarmodel1.Quality">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/Quality1.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
@@ -61,12 +61,24 @@
           </style>
         </nodeMappings>
         <nodeMappings name="AgentName" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::AgentNode">
-          <style xsi:type="style:WorkspaceImageDescription" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/Agent11.png">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/Agent11.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
-        <edgeMappings name="OrRefinementEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetOrRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetFinderExpression="feature:orRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectOrRefinement']">
+        <nodeMappings name="ActorName" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::ActorNode">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/Actor11.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="RoleName" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::RoleNode">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/RoleSymbol1.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="OrRefinementEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetOrRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetFinderExpression="feature:orRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectOrRefinement']">
           <style targetArrow="InputFillClosedArrow" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription labelSize="20" showIcon="false" iconPath="/istarmodel1.design/icons/bigd.png">
@@ -75,7 +87,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="AndRefinementEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetAndRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetFinderExpression="feature:andRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectAndRefinement']">
+        <edgeMappings name="AndRefinementEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetAndRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetFinderExpression="feature:andRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectAndRefinement']">
           <style targetArrow="OutputClosedArrow" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <endLabelStyleDescription labelSize="20" showIcon="false">
@@ -84,7 +96,7 @@
             </endLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="QualifiesEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetQualifies']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetFinderExpression="feature:qualifies" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectQualifies']">
+        <edgeMappings name="QualifiesEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetQualifies']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetFinderExpression="feature:qualifies" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectQualifies']">
           <style lineStyle="dash" targetArrow="NoDecoration" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription>
@@ -92,7 +104,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ContributionEdgeHelp" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetContributionHelp']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetFinderExpression="feature:contributesToHelp">
+        <edgeMappings name="ContributionEdgeHelp" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetContributionHelp']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetFinderExpression="feature:contributesToHelp">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="help">
@@ -101,7 +113,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ProvidesEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetProvides']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetFinderExpression="feature:provides" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectProvides']">
+        <edgeMappings name="ProvidesEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetProvides']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetFinderExpression="feature:provides" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectProvides']">
           <style targetArrow="FillDiamond" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_purple']"/>
             <centerLabelStyleDescription>
@@ -109,7 +121,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="NeededByEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetNeededBy']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetFinderExpression="feature:neededBy" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectNeededBy']">
+        <edgeMappings name="NeededByEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetNeededBy']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetFinderExpression="feature:neededBy" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectNeededBy']">
           <style targetArrow="FillDiamond" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription>
@@ -117,7 +129,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ContributionEdgeMake" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetContributionMake']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetFinderExpression="feature:contributesToMake">
+        <edgeMappings name="ContributionEdgeMake" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetContributionMake']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetFinderExpression="feature:contributesToMake">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="make">
@@ -126,7 +138,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ContributionEdgeHurt" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetContributionHurt']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetFinderExpression="feature:contributesToHurt">
+        <edgeMappings name="ContributionEdgeHurt" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetContributionHurt']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetFinderExpression="feature:contributesToHurt">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="hurt">
@@ -135,7 +147,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ContributionEdgeBreak" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetContributionBreak']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetFinderExpression="feature:contributesToBreak">
+        <edgeMappings name="ContributionEdgeBreak" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetContributionBreak']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode']" targetFinderExpression="feature:contributesToBreak">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="break">
@@ -144,30 +156,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="DependencyEdgeGoal" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetGoalDependencyEdge']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode']" targetFinderExpression="feature:dependsonGoal" pathExpression="var:element." pathNodeMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode']">
-          <style targetArrow="NoDecoration" sizeComputationExpression="2">
-            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-            <beginLabelStyleDescription labelSize="15" showIcon="false" labelExpression="D">
-              <labelFormat>bold</labelFormat>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-            </beginLabelStyleDescription>
-            <centerLabelStyleDescription labelExpression="." iconPath="/istarmodel1.design/icons/goal.png">
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </centerLabelStyleDescription>
-            <endLabelStyleDescription>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </endLabelStyleDescription>
-          </style>
-        </edgeMappings>
-        <edgeMappings name="DependencyEdgeQuality" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetQualityDependencyEdge']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode']" targetFinderExpression="feature:dependsonQuality" pathExpression="feature:depend" pathNodeMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='sample']">
-          <style targetArrow="NoDecoration" sizeComputationExpression="2">
-            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-            <centerLabelStyleDescription labelExpression="." iconPath="/istarmodel1.design/icons/quality.png">
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </centerLabelStyleDescription>
-          </style>
-        </edgeMappings>
-        <edgeMappings name="DependencyEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetTaskDependencyEdge']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:depend">
+        <edgeMappings name="DependencyEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetTaskDependencyEdge']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='RoleName']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DtaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='QualityNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='ResourceRoleNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='TaskNode2'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='ActorName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='RoleName']" targetFinderExpression="feature:depend">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="DependsOn">
@@ -175,15 +164,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="DependencyEdgeResource" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetResourceDependencyEdge']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" targetFinderExpression="feature:dependsonResource" pathExpression="feature:depend" pathNodeMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='sample']">
-          <style targetArrow="NoDecoration" sizeComputationExpression="2">
-            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-            <centerLabelStyleDescription labelExpression="." iconPath="/istarmodel1.design/icons/resource.png">
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </centerLabelStyleDescription>
-          </style>
-        </edgeMappings>
-        <edgeMappings name="isa" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetIsa']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']" targetFinderExpression="feature:isa">
+        <edgeMappings name="isa" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetIsa']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']" targetFinderExpression="feature:isa">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="is-a">
@@ -192,7 +173,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="OrRefinementAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetOrRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:orRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectOrRefinement2']">
+        <edgeMappings name="OrRefinementAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetOrRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:orRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectOrRefinement2']">
           <style targetArrow="InputFillClosedArrow" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription labelSize="20" showIcon="false" iconPath="/istarmodel1.design/icons/bigd.png">
@@ -201,7 +182,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="AndRefinementAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetAndRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:andRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectAndRefinement2']">
+        <edgeMappings name="AndRefinementAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetAndRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:andRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectAndRefinement2']">
           <style targetArrow="OutputClosedArrow" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <endLabelStyleDescription labelSize="20" showIcon="false">
@@ -210,7 +191,7 @@
             </endLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="QualifiesAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetQualifies']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:qualifies" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectQualifies2']">
+        <edgeMappings name="QualifiesAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetQualifies']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:qualifies" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectQualifies2']">
           <style lineStyle="dash" targetArrow="NoDecoration" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription>
@@ -218,7 +199,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ContributionAgentEdgeHelp" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetContributionHelp']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetFinderExpression="feature:contributesToHelp">
+        <edgeMappings name="ContributionAgentEdgeHelp" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetContributionHelp']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetFinderExpression="feature:contributesToHelp">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="help">
@@ -227,7 +208,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ProvidesAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetProvides']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1']" targetFinderExpression="feature:provides" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectProvides2']">
+        <edgeMappings name="ProvidesAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetProvides']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1']" targetFinderExpression="feature:provides" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectProvides2']">
           <style targetArrow="FillDiamond" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_purple']"/>
             <centerLabelStyleDescription>
@@ -235,7 +216,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="NeededByAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetNeededBy']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:neededBy" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='reconnectNeededBy2']">
+        <edgeMappings name="NeededByAgentEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetNeededBy']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetFinderExpression="feature:neededBy" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectNeededBy2']">
           <style targetArrow="FillDiamond" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription>
@@ -243,7 +224,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ContributionAgentEdgeMake" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetContributionMake']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetFinderExpression="feature:contributesToMake">
+        <edgeMappings name="ContributionAgentEdgeMake" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetContributionMake']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetFinderExpression="feature:contributesToMake">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="make">
@@ -252,7 +233,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ContributionAgentEdgeHurt" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetContributionHurt']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetFinderExpression="feature:contributesToHurt">
+        <edgeMappings name="ContributionAgentEdgeHurt" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetContributionHurt']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetFinderExpression="feature:contributesToHurt">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="hurt">
@@ -261,7 +242,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ContributionAgentEdgeBreak" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetContributionBreak']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetFinderExpression="feature:contributesToBreak">
+        <edgeMappings name="ContributionAgentEdgeBreak" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetContributionBreak']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']" targetFinderExpression="feature:contributesToBreak">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="break">
@@ -270,7 +251,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="participatesin" label="Participates in" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='unsetParticipatesin']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName']" targetFinderExpression="feature:participatesin">
+        <edgeMappings name="participatesin" label="Participates in" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetParticipatesin']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName']" targetFinderExpression="feature:participatesin">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="participates-in">
@@ -279,8 +260,8 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <containerMappings name="RoleContainer" semanticCandidatesExpression="feature:actors" doubleClickDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='RoleDoubleClick']" domainClass="istarmodel1.RoleContainer" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDropInside']">
-          <borderedNodeMappings name="RoleNameBoarded" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:has" domainClass="istarmodel1::RoleNode">
+        <containerMappings name="RoleContainer" semanticCandidatesExpression="feature:actors" doubleClickDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='RoleDoubleClick']" domainClass="istarmodel1.RoleContainer" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDropInside']">
+          <borderedNodeMappings name="RoleNameBoarded" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:has" domainClass="istarmodel1::RoleNode">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/RoleSymbol1.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
@@ -290,28 +271,28 @@
               <forbiddenSides>NORTH</forbiddenSides>
             </style>
           </borderedNodeMappings>
-          <subNodeMappings name="GoalNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Goal">
+          <subNodeMappings name="GoalNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Goal">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Goal3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="TaskNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Task">
+          <subNodeMappings name="TaskNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Task">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Task3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="QualityNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Quality">
+          <subNodeMappings name="QualityNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Quality">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Quality1.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="ResourceRoleNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Resource">
+          <subNodeMappings name="ResourceRoleNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Resource">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Resource3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
@@ -325,8 +306,8 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <containerMappings name="AgentContainer" semanticCandidatesExpression="feature:actors" domainClass="istarmodel1.AgentContainer" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDropInside']">
-          <borderedNodeMappings name="AgentName" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:has" domainClass="istarmodel1::AgentNode">
+        <containerMappings name="AgentContainer" semanticCandidatesExpression="feature:actors" domainClass="istarmodel1.AgentContainer" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDropInside']">
+          <borderedNodeMappings name="AgentName" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:has" domainClass="istarmodel1::AgentNode">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/Agent11.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
@@ -336,28 +317,28 @@
               <forbiddenSides>NORTH</forbiddenSides>
             </style>
           </borderedNodeMappings>
-          <subNodeMappings name="GoalNode1" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Goal">
+          <subNodeMappings name="GoalNode1" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Goal">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Goal3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="TaskNode1" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Task">
+          <subNodeMappings name="TaskNode1" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Task">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Task3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="QualityNode1" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Quality">
+          <subNodeMappings name="QualityNode1" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Quality">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Quality1.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="ResourceRoleNode1" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Resource">
+          <subNodeMappings name="ResourceRoleNode1" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Resource">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Resource3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
@@ -371,8 +352,8 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <containerMappings name="ActorContainer" semanticCandidatesExpression="feature:actors" domainClass="istarmodel1.ActorContainerImp" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDropInside']">
-          <borderedNodeMappings name="ActorName" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:has" domainClass="istarmodel1::ActorReal">
+        <containerMappings name="ActorContainer" semanticCandidatesExpression="feature:actors" domainClass="istarmodel1.ActorContainerImp" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDropInside']">
+          <borderedNodeMappings name="ActorName" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:has" domainClass="istarmodel1::ActorReal">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/Actor11.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
@@ -382,28 +363,28 @@
               <forbiddenSides>NORTH</forbiddenSides>
             </style>
           </borderedNodeMappings>
-          <subNodeMappings name="GoalNode2" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Goal">
+          <subNodeMappings name="GoalNode2" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Goal">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Goal3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="TaskNode2" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Task">
+          <subNodeMappings name="TaskNode2" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Task">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Task3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="QualityNode2" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Quality">
+          <subNodeMappings name="QualityNode2" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Quality">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Quality1.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="ResourceRoleNode2" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Resource">
+          <subNodeMappings name="ResourceRoleNode2" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Resource">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" workspacePath="/istarmodel1.design/icons/Resource3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
@@ -417,7 +398,7 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <toolSections name="Elements">
+        <toolSections name="SR Actor Types">
           <ownedTools xsi:type="tool_1:ContainerCreationDescription" name="ActorContainerCreation" label="SR Actor " forceRefresh="true" containerMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']" iconPath="/istarmodel1.design/icons/sractor.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
@@ -460,40 +441,31 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="RoleActorCreation" label="SD Actor " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName']" iconPath="/istarmodel1.design/icons/Actorr.png">
+        </toolSections>
+        <toolSections name="SD Actor Types">
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="RoleActorCreation" label="SD Actor " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='ActorName']" iconPath="/istarmodel1.design/icons/Actorr.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::IstarDiagram)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleNode"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::ActorNode" referenceName="nodes"/>
                 </subModelOperations>
-                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::ActorContainerImp)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.ActorNode" referenceName="has">
-                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Actor Node'/]"/>
-                  </subModelOperations>
-                </subModelOperations>
-                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::Agent)"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="RoleNameCreation" label="SD Role " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']" iconPath="/istarmodel1.design/icons/rol.png">
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="RoleNameCreation" label="SD Role " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='RoleName']" iconPath="/istarmodel1.design/icons/rol.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::IstarDiagram)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleNode" referenceName="has"/>
-                </subModelOperations>
-                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::RoleContainer)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.RoleNode" referenceName="has">
-                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Role Node'/]"/>
-                  </subModelOperations>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleNode" referenceName="nodes"/>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="AgentNameCreation" label="SD Agent " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='AgentName']" iconPath="/istarmodel1.design/icons/agent00.png">
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" name="AgentNameCreation" label="SD Agent " forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='AgentName']" iconPath="/istarmodel1.design/icons/agent00.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -501,14 +473,59 @@
                 <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::IstarDiagram)">
                   <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentNode" referenceName="nodes"/>
                 </subModelOperations>
-                <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::AgentContainer)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.AgentNode" referenceName="has">
-                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Agent Node'/]"/>
-                  </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:ContainerDropDescription" name="RoleDrop" mappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" moveEdges="true">
+            <oldContainer name="oldSemanticContainer"/>
+            <newContainer name="newSemanticContainer"/>
+            <element name="element"/>
+            <newViewContainer name="newContainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
+                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:newSemanticContainer">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="contains" valueExpression="var:element"/>
+                </subModelOperations>
+                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:oldSemanticContainer">
+                  <subModelOperations xsi:type="tool:Unset" featureName="contains" elementExpression="var:element"/>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool_1:ContainerDropDescription" name="RoleDropInside" mappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" moveEdges="true">
+            <oldContainer name="oldSemanticContainer"/>
+            <newContainer name="newSemanticContainer"/>
+            <element name="element"/>
+            <newViewContainer name="newContainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
+                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:newSemanticContainer">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="contains" valueExpression="var:element"/>
+                </subModelOperations>
+                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:oldSemanticContainer">
+                  <subModelOperations xsi:type="tool:Unset" featureName="elements" elementExpression="var:element"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:ContainerDropDescription" name="RoleDropOutside" mappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']">
+            <oldContainer name="oldSemanticContainer"/>
+            <newContainer name="newSemanticContainer"/>
+            <element name="element"/>
+            <newViewContainer name="newContainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
+                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:newSemanticContainer">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="elements" valueExpression="var:element"/>
+                </subModelOperations>
+                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:oldSemanticContainer">
+                  <subModelOperations xsi:type="tool:Unset" featureName="contains" elementExpression="var:element"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Intentional elements">
           <ownedTools xsi:type="tool_1:NodeCreationDescription" name="GoalCreation" label="Goal" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DgoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2']" iconPath="/istarmodel1.design/icons/goal1.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
@@ -621,54 +638,6 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:ContainerDropDescription" name="RoleDrop" mappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='QualityNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='GoalNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='ResourceRoleNode1'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']" moveEdges="true">
-            <oldContainer name="oldSemanticContainer"/>
-            <newContainer name="newSemanticContainer"/>
-            <element name="element"/>
-            <newViewContainer name="newContainerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
-                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:newSemanticContainer">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="contains" valueExpression="var:element"/>
-                </subModelOperations>
-                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:oldSemanticContainer">
-                  <subModelOperations xsi:type="tool:Unset" featureName="contains" elementExpression="var:element"/>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:ContainerDropDescription" name="RoleDropInside" mappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']" moveEdges="true">
-            <oldContainer name="oldSemanticContainer"/>
-            <newContainer name="newSemanticContainer"/>
-            <element name="element"/>
-            <newViewContainer name="newContainerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
-                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:newSemanticContainer">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="contains" valueExpression="var:element"/>
-                </subModelOperations>
-                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:oldSemanticContainer">
-                  <subModelOperations xsi:type="tool:Unset" featureName="elements" elementExpression="var:element"/>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:ContainerDropDescription" name="RoleDropOutside" mappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DresourceNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='ResourceRoleNode']">
-            <oldContainer name="oldSemanticContainer"/>
-            <newContainer name="newSemanticContainer"/>
-            <element name="element"/>
-            <newViewContainer name="newContainerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
-                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:newSemanticContainer">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="elements" valueExpression="var:element"/>
-                </subModelOperations>
-                <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:oldSemanticContainer">
-                  <subModelOperations xsi:type="tool:Unset" featureName="contains" elementExpression="var:element"/>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
         </toolSections>
         <toolSections name="Edges">
           <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="OrRefinementCreation" label="OrRefinement" precondition="aql:preTarget.differs(preSource) and preTarget.orRefinement->excludes(preSource)" edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='OrRefinementEdge'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='OrRefinementAgentEdge']" iconPath="/istarmodel1.design/icons/arrow.png" connectionStartPrecondition="aql:preSource.andRefinement->size()=0">
@@ -707,7 +676,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="NeededBy" edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='NeededByEdge'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='NeededByAgentEdge']" iconPath="/istarmodel1.design/icons/neededby.png">
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="NeededBy" edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='NeededByEdge'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='NeededByAgentEdge']" iconPath="/istarmodel1.design/icons/needed.png">
             <sourceVariable name="source"/>
             <targetVariable name="target"/>
             <sourceViewVariable name="sourceView"/>
@@ -715,50 +684,6 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
                 <subModelOperations xsi:type="tool:SetValue" featureName="neededBy" valueExpression="var:target"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationHelp" label="ContributionHelp" precondition="aql:preSource.contributesToHurt->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeHelp'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeHelp']" iconPath="/istarmodel1.design/icons/contribut.png">
-            <sourceVariable name="source"/>
-            <targetVariable name="target"/>
-            <sourceViewVariable name="sourceView"/>
-            <targetViewVariable name="targetView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
-                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToHelp" valueExpression="var:target"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationHurt" label="ContributionHurt" precondition="aql:preSource.contributesToMake->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " forceRefresh="true" edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeHurt'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeHurt']" iconPath="/istarmodel1.design/icons/contribut.png">
-            <sourceVariable name="source"/>
-            <targetVariable name="target"/>
-            <sourceViewVariable name="sourceView"/>
-            <targetViewVariable name="targetView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
-                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToHurt" valueExpression="var:target"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationMake" label="ContributionMake" precondition="aql:preSource.contributesToHurt->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeMake'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeMake']" iconPath="/istarmodel1.design/icons/contribut.png">
-            <sourceVariable name="source"/>
-            <targetVariable name="target"/>
-            <sourceViewVariable name="sourceView"/>
-            <targetViewVariable name="targetView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
-                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToMake" valueExpression="var:target"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationBreak" label="ContributionBreak" precondition="aql:preSource.contributesToHelp->size()=0 and preSource.contributesToHurt->size()=0 and preSource.contributesToMake->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeBreak'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeBreak']" iconPath="/istarmodel1.design/icons/contribut.png">
-            <sourceVariable name="source"/>
-            <targetVariable name="target"/>
-            <sourceViewVariable name="sourceView"/>
-            <targetViewVariable name="targetView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
-                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToBreak" valueExpression="var:target"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
@@ -773,7 +698,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="IsaCreation" label="isa" precondition="aql:preTarget.differs(preSource) " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='isa']" iconPath="/istarmodel1.design/icons/contribut.png" connectionStartPrecondition="aql:preSource.isa->size()=0">
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="IsaCreation" label="isa" precondition="aql:preTarget.differs(preSource) " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='isa']" iconPath="/istarmodel1.design/icons/isa.png" connectionStartPrecondition="aql:preSource.isa->size()=0">
             <sourceVariable name="source"/>
             <targetVariable name="target"/>
             <sourceViewVariable name="sourceView"/>
@@ -784,7 +709,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="participatesInCreation" label="Participates In" precondition="aql:preTarget.differs(preSource) " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='participatesin']" iconPath="/istarmodel1.design/icons/contribut.png" connectionStartPrecondition="aql:preSource.participatesin->size()=0">
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="participatesInCreation" label="Participates In" precondition="aql:preTarget.differs(preSource) " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='participatesin']" iconPath="/istarmodel1.design/icons/participatesin.png" connectionStartPrecondition="aql:preSource.participatesin->size()=0">
             <sourceVariable name="source"/>
             <targetVariable name="target"/>
             <sourceViewVariable name="sourceView"/>
@@ -854,16 +779,6 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:element">
                 <subModelOperations xsi:type="tool:Unset" featureName="neededBy" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DNode).target/]"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:DeleteElementDescription" name="unsetPrecondition">
-            <element name="element"/>
-            <elementView name="elementView"/>
-            <containerView name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:element">
-                <subModelOperations xsi:type="tool:Unset" featureName="precondition" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DNode).target/]"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
@@ -1150,6 +1065,52 @@
             </initialOperation>
           </ownedTools>
         </toolSections>
+        <toolSections name="Contribution Edges">
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationHelp" label="contribution" precondition="aql:preSource.contributesToHurt->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeHelp'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeHelp']" iconPath="/istarmodel1.design/icons/help.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToHelp" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationHurt" label="contribution" precondition="aql:preSource.contributesToMake->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " forceRefresh="true" edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeHurt'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeHurt']" iconPath="/istarmodel1.design/icons/hurt.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToHurt" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationMake" label="contribution" precondition="aql:preSource.contributesToHurt->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeMake'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeMake']" iconPath="/istarmodel1.design/icons/make.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToMake" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationBreak" label="contribution" precondition="aql:preSource.contributesToHelp->size()=0 and preSource.contributesToHurt->size()=0 and preSource.contributesToMake->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeBreak'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeBreak']" iconPath="/istarmodel1.design/icons/break.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToBreak" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
         <decorationDescriptionsSet>
           <decorationDescriptions xsi:type="description:SemanticBasedDecoration" name="DiagramLinkDecorator" position="NORTH_EAST" preconditionExpression="aql:diagramView.eContents(istarmodel1::Resource)" domainClass="istarmodel.Resource"/>
         </decorationDescriptionsSet>
@@ -1157,8 +1118,8 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Role Diagram" titleExpression="aql:'Role Diagram of ' + self.name" domainClass="istarmodel1.Role" enablePopupBars="true">
       <defaultLayer name="Default">
-        <containerMappings name="RoleContainer" semanticCandidatesExpression="var:self" doubleClickDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='RoleDoubleClick']" domainClass="istarmodel1.Role" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RoleDropInside']">
-          <borderedNodeMappings name="RoleNameNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:hasName" doubleClickDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='RoleDoubleClick']" domainClass="istarmodel1.RoleName">
+        <containerMappings name="RoleContainer" semanticCandidatesExpression="var:self" doubleClickDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='RoleDoubleClick']" domainClass="istarmodel1.Role" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDropInside']">
+          <borderedNodeMappings name="RoleNameNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:hasName" doubleClickDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='RoleDoubleClick']" domainClass="istarmodel1.RoleName">
             <style xsi:type="style:SquareDescription" labelExpression="aql:self.eContainer().name" labelPosition="node" resizeKind="NSEW">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -1167,31 +1128,31 @@
               <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
             </style>
           </borderedNodeMappings>
-          <subNodeMappings name="GoalNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Goal">
+          <subNodeMappings name="GoalNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Goal">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/Goal3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="TaskNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Task">
+          <subNodeMappings name="TaskNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Task">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/Task3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="QualityNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Quality">
+          <subNodeMappings name="QualityNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Quality">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/Quality1.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="ResourceRoleNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Resource">
+          <subNodeMappings name="ResourceRoleNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.Resource">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/Resource3.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="PreconditionEffectRoleNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.2/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.PreconditionEffect">
+          <subNodeMappings name="PreconditionEffectRoleNode" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:contains" domainClass="istarmodel1.PreconditionEffect">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" workspacePath="/istarmodel1.design/icons/PreconditionEffect1.svg">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>

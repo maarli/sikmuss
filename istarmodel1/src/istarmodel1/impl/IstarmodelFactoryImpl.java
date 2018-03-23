@@ -70,6 +70,7 @@ public class IstarmodelFactoryImpl extends EFactoryImpl implements IstarmodelFac
 			case IstarmodelPackage.ACTOR_REAL: return createActorReal();
 			case IstarmodelPackage.ACTOR_NODE: return createActorNode();
 			case IstarmodelPackage.ACTOR_CONTAINER_IMP: return createActorContainerImp();
+			case IstarmodelPackage.ELEMENT: return createElement();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -213,6 +214,16 @@ public class IstarmodelFactoryImpl extends EFactoryImpl implements IstarmodelFac
 	public ActorContainerImp createActorContainerImp() {
 		ActorContainerImpImpl actorContainerImp = new ActorContainerImpImpl();
 		return actorContainerImp;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Element createElement() {
+		ElementImpl element = new ElementImpl();
+		return element;
 	}
 
 	/**

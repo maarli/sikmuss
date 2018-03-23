@@ -89,6 +89,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 			case IstarmodelPackage.INTENTIONAL_ELEMENT: {
 				IntentionalElement intentionalElement = (IntentionalElement)theEObject;
 				T result = caseIntentionalElement(intentionalElement);
+				if (result == null) result = caseElement(intentionalElement);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -96,6 +97,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				GoalTaskElement goalTaskElement = (GoalTaskElement)theEObject;
 				T result = caseGoalTaskElement(goalTaskElement);
 				if (result == null) result = caseIntentionalElement(goalTaskElement);
+				if (result == null) result = caseElement(goalTaskElement);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -103,6 +105,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				Quality quality = (Quality)theEObject;
 				T result = caseQuality(quality);
 				if (result == null) result = caseIntentionalElement(quality);
+				if (result == null) result = caseElement(quality);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -110,6 +113,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				ResourceElement resourceElement = (ResourceElement)theEObject;
 				T result = caseResourceElement(resourceElement);
 				if (result == null) result = caseIntentionalElement(resourceElement);
+				if (result == null) result = caseElement(resourceElement);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -118,6 +122,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				T result = caseGoal(goal);
 				if (result == null) result = caseGoalTaskElement(goal);
 				if (result == null) result = caseIntentionalElement(goal);
+				if (result == null) result = caseElement(goal);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -126,6 +131,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				T result = caseTask(task);
 				if (result == null) result = caseGoalTaskElement(task);
 				if (result == null) result = caseIntentionalElement(task);
+				if (result == null) result = caseElement(task);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -134,6 +140,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				T result = caseResource(resource);
 				if (result == null) result = caseResourceElement(resource);
 				if (result == null) result = caseIntentionalElement(resource);
+				if (result == null) result = caseElement(resource);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -153,6 +160,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				RoleNode roleNode = (RoleNode)theEObject;
 				T result = caseRoleNode(roleNode);
 				if (result == null) result = caseActorReal(roleNode);
+				if (result == null) result = caseElement(roleNode);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -160,12 +168,14 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				AgentNode agentNode = (AgentNode)theEObject;
 				T result = caseAgentNode(agentNode);
 				if (result == null) result = caseActorReal(agentNode);
+				if (result == null) result = caseElement(agentNode);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
 			case IstarmodelPackage.ACTOR_REAL: {
 				ActorReal actorReal = (ActorReal)theEObject;
 				T result = caseActorReal(actorReal);
+				if (result == null) result = caseElement(actorReal);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -173,6 +183,7 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				ActorNode actorNode = (ActorNode)theEObject;
 				T result = caseActorNode(actorNode);
 				if (result == null) result = caseActorReal(actorNode);
+				if (result == null) result = caseElement(actorNode);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -180,6 +191,12 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 				ActorContainerImp actorContainerImp = (ActorContainerImp)theEObject;
 				T result = caseActorContainerImp(actorContainerImp);
 				if (result == null) result = caseActorContainer(actorContainerImp);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IstarmodelPackage.ELEMENT: {
+				Element element = (Element)theEObject;
+				T result = caseElement(element);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -439,6 +456,21 @@ public class IstarmodelSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseActorContainerImp(ActorContainerImp object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseElement(Element object) {
 		return null;
 	}
 

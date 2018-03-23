@@ -2,17 +2,28 @@
  */
 package istarmodel1.tests;
 
-import istarmodel1.ActorReal;
+import istarmodel1.Element;
 import istarmodel1.IstarmodelFactory;
+
+import junit.framework.TestCase;
+
 import junit.textui.TestRunner;
 
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Actor Real</b></em>'.
+ * A test case for the model object '<em><b>Element</b></em>'.
  * <!-- end-user-doc -->
  * @generated
  */
-public class ActorRealTest extends ElementTest {
+public class ElementTest extends TestCase {
+
+	/**
+	 * The fixture for this Element test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected Element fixture = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -20,28 +31,37 @@ public class ActorRealTest extends ElementTest {
 	 * @generated
 	 */
 	public static void main(String[] args) {
-		TestRunner.run(ActorRealTest.class);
+		TestRunner.run(ElementTest.class);
 	}
 
 	/**
-	 * Constructs a new Actor Real test case with the given name.
+	 * Constructs a new Element test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ActorRealTest(String name) {
+	public ElementTest(String name) {
 		super(name);
 	}
 
 	/**
-	 * Returns the fixture for this Actor Real test case.
+	 * Sets the fixture for this Element test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
-	protected ActorReal getFixture() {
-		return (ActorReal)fixture;
+	protected void setFixture(Element fixture) {
+		this.fixture = fixture;
+	}
+
+	/**
+	 * Returns the fixture for this Element test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected Element getFixture() {
+		return fixture;
 	}
 
 	/**
@@ -52,7 +72,7 @@ public class ActorRealTest extends ElementTest {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(IstarmodelFactory.eINSTANCE.createActorReal());
+		setFixture(IstarmodelFactory.eINSTANCE.createElement());
 	}
 
 	/**
@@ -66,4 +86,4 @@ public class ActorRealTest extends ElementTest {
 		setFixture(null);
 	}
 
-} //ActorRealTest
+} //ElementTest

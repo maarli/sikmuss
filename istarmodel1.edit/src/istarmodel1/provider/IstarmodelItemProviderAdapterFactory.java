@@ -394,6 +394,29 @@ public class IstarmodelItemProviderAdapterFactory extends IstarmodelAdapterFacto
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link istarmodel1.Element} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ElementItemProvider elementItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link istarmodel1.Element}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createElementAdapter() {
+		if (elementItemProvider == null) {
+			elementItemProvider = new ElementItemProvider(this);
+		}
+
+		return elementItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -506,6 +529,7 @@ public class IstarmodelItemProviderAdapterFactory extends IstarmodelAdapterFacto
 		if (actorRealItemProvider != null) actorRealItemProvider.dispose();
 		if (actorNodeItemProvider != null) actorNodeItemProvider.dispose();
 		if (actorContainerImpItemProvider != null) actorContainerImpItemProvider.dispose();
+		if (elementItemProvider != null) elementItemProvider.dispose();
 	}
 
 }

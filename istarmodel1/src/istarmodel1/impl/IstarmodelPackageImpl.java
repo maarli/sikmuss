@@ -9,6 +9,7 @@ import istarmodel1.ActorReal;
 import istarmodel1.AgentContainer;
 import istarmodel1.AgentNode;
 import istarmodel1.DiagramContainer;
+import istarmodel1.Element;
 import istarmodel1.Goal;
 import istarmodel1.GoalTaskElement;
 import istarmodel1.IntentionalElement;
@@ -154,6 +155,13 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 	 * @generated
 	 */
 	private EClass actorContainerImpEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass elementEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -331,15 +339,6 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 	 */
 	public EReference getIntentionalElement_ContributesToMake() {
 		return (EReference)intentionalElementEClass.getEStructuralFeatures().get(4);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getIntentionalElement_Depend() {
-		return (EReference)intentionalElementEClass.getEStructuralFeatures().get(5);
 	}
 
 	/**
@@ -590,6 +589,24 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EClass getElement() {
+		return elementEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getElement_Depend() {
+		return (EReference)elementEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public IstarmodelFactory getIstarmodelFactory() {
 		return (IstarmodelFactory)getEFactoryInstance();
 	}
@@ -629,7 +646,6 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 		createEReference(intentionalElementEClass, INTENTIONAL_ELEMENT__CONTRIBUTES_TO_HURT);
 		createEReference(intentionalElementEClass, INTENTIONAL_ELEMENT__CONTRIBUTES_TO_BREAK);
 		createEReference(intentionalElementEClass, INTENTIONAL_ELEMENT__CONTRIBUTES_TO_MAKE);
-		createEReference(intentionalElementEClass, INTENTIONAL_ELEMENT__DEPEND);
 
 		goalTaskElementEClass = createEClass(GOAL_TASK_ELEMENT);
 		createEReference(goalTaskElementEClass, GOAL_TASK_ELEMENT__AND_REFINEMENT);
@@ -670,6 +686,9 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 		actorNodeEClass = createEClass(ACTOR_NODE);
 
 		actorContainerImpEClass = createEClass(ACTOR_CONTAINER_IMP);
+
+		elementEClass = createEClass(ELEMENT);
+		createEReference(elementEClass, ELEMENT__DEPEND);
 	}
 
 	/**
@@ -702,6 +721,7 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 		// Add supertypes to classes
 		agentContainerEClass.getESuperTypes().add(this.getActorContainer());
 		roleContainerEClass.getESuperTypes().add(this.getActorContainer());
+		intentionalElementEClass.getESuperTypes().add(this.getElement());
 		goalTaskElementEClass.getESuperTypes().add(this.getIntentionalElement());
 		qualityEClass.getESuperTypes().add(this.getIntentionalElement());
 		resourceElementEClass.getESuperTypes().add(this.getIntentionalElement());
@@ -710,6 +730,7 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 		resourceEClass.getESuperTypes().add(this.getResourceElement());
 		roleNodeEClass.getESuperTypes().add(this.getActorReal());
 		agentNodeEClass.getESuperTypes().add(this.getActorReal());
+		actorRealEClass.getESuperTypes().add(this.getElement());
 		actorNodeEClass.getESuperTypes().add(this.getActorReal());
 		actorContainerImpEClass.getESuperTypes().add(this.getActorContainer());
 
@@ -730,7 +751,6 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 		initEReference(getIntentionalElement_ContributesToHurt(), this.getQuality(), null, "contributesToHurt", null, 0, -1, IntentionalElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getIntentionalElement_ContributesToBreak(), this.getQuality(), null, "contributesToBreak", null, 0, -1, IntentionalElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getIntentionalElement_ContributesToMake(), this.getQuality(), null, "contributesToMake", null, 0, -1, IntentionalElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getIntentionalElement_Depend(), this.getIntentionalElement(), null, "depend", null, 0, 1, IntentionalElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(goalTaskElementEClass, GoalTaskElement.class, "GoalTaskElement", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getGoalTaskElement_AndRefinement(), this.getGoalTaskElement(), null, "andRefinement", null, 0, -1, GoalTaskElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -771,6 +791,9 @@ public class IstarmodelPackageImpl extends EPackageImpl implements IstarmodelPac
 		initEClass(actorNodeEClass, ActorNode.class, "ActorNode", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(actorContainerImpEClass, ActorContainerImp.class, "ActorContainerImp", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(elementEClass, Element.class, "Element", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getElement_Depend(), this.getElement(), null, "depend", null, 0, -1, Element.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

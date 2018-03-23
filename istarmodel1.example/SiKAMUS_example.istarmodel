@@ -2,8 +2,8 @@
 <istarmodel1:DiagramContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:istarmodel1="http://www.eclipse.org/sirius/example/istarmodel1">
   <diagrams name="new">
     <actors xsi:type="istarmodel1:AgentContainer" name="Agent container">
-      <contains xsi:type="istarmodel1:Task" name="New Task" depend="//@diagrams.0/@elements.1"/>
-      <contains xsi:type="istarmodel1:Task" name="New Task" depend="//@diagrams.0/@elements.0"/>
+      <contains xsi:type="istarmodel1:Task" depend="//@diagrams.0/@elements.1" name="New Task"/>
+      <contains xsi:type="istarmodel1:Task" depend="//@diagrams.0/@elements.0" name="New Task"/>
       <contains xsi:type="istarmodel1:Quality" name="New Goal" qualifies="//@diagrams.0/@actors.0/@contains.0"/>
       <has xsi:type="istarmodel1:AgentNode" name="Agent Name"/>
     </actors>
@@ -11,20 +11,10 @@
       <contains xsi:type="istarmodel1:Task" name="New Task"/>
       <has xsi:type="istarmodel1:RoleNode" name="New Role Node"/>
     </actors>
-    <actors xsi:type="istarmodel1:AgentContainer" name="Agent container">
-      <has xsi:type="istarmodel1:AgentNode" name="Agent Name"/>
-    </actors>
     <actors xsi:type="istarmodel1:ActorContainerImp" name="Actor Container">
       <has xsi:type="istarmodel1:RoleNode" name="New Actor Node"/>
     </actors>
-    <actors xsi:type="istarmodel1:ActorContainerImp" name="Actor Container">
-      <has xsi:type="istarmodel1:ActorNode" name="New Actor Node"/>
-    </actors>
-    <actors xsi:type="istarmodel1:ActorContainerImp" name="Actor Container">
-      <has xsi:type="istarmodel1:ActorNode" name="New Actor Node"/>
-    </actors>
-    <elements xsi:type="istarmodel1:Quality" name="New Quality" depend="//@diagrams.0/@actors.1/@contains.0"/>
-    <elements xsi:type="istarmodel1:Quality" name="New Quality" depend="//@diagrams.0/@actors.1/@contains.0"/>
-    <elements xsi:type="istarmodel1:Goal" name="New Goal"/>
+    <elements xsi:type="istarmodel1:Quality" depend="//@diagrams.0/@actors.1/@contains.0" name="New Quality"/>
+    <elements xsi:type="istarmodel1:Quality" depend="//@diagrams.0/@actors.1/@contains.0" name="New Quality"/>
   </diagrams>
 </istarmodel1:DiagramContainer>
