@@ -1,119 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:istarmodel1="http://www.eclipse.org/sirius/example/istarmodel1" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_tNTvIFDnEeaGW6TL0C97EA" selectedViews="_S1VHEFDtEeaE5_wdVS_JZg" version="12.0.0.201704271200">
+  <viewpoint:DAnalysis xmi:id="_tNTvIFDnEeaGW6TL0C97EA" selectedViews="_S1VHEFDtEeaE5_wdVS_JZg" version="12.1.0.201708031200">
     <semanticResources>SiKAMUS_example.istarmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_S1VHEFDtEeaE5_wdVS_JZg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_GjcK20EeefvbZZYXTuGA" name="new Actors Diagram" repPath="#_WJuQAFDtEeaE5_wdVS_JZg">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_GjcK20EeefvbZZYXTuGA" name="new Actors Diagram" repPath="#_wQtbgC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="example1.istarmodel1#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_HKga20EeefvbZZYXTuGA" name="actors diagram2" repPath="#_y61ZoFftEea_N5W1d5668Q">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_HKga20EeefvbZZYXTuGA" name="actors diagram2" repPath="#_wV6roC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="example2.istarmodel1#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_HKg620EeefvbZZYXTuGA" name="new Role Diagram" repPath="#_wyu9UFfwEea_N5W1d5668Q">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_HKg620EeefvbZZYXTuGA" name="new Role Diagram" repPath="#_wWBZUC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']"/>
         <target xmi:type="istarmodel1:Role" href="example1.istarmodel1#//@actors.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Hxka20EeefvbZZYXTuGA" name="Role Diagram of New Role" repPath="#_YeT6gFo9EeaVDIVQKHtB5g">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Hxka20EeefvbZZYXTuGA" name="Role Diagram of New Role" repPath="#_wWeFQC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Hxk620EeefvbZZYXTuGA" name="Role Diagram of Bob" repPath="#_Oj_7kFo_Eeay0NogFbrWGg">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Hxk620EeefvbZZYXTuGA" name="Role Diagram of Bob" repPath="#_wWiWsC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']"/>
         <target xmi:type="istarmodel1:Role" href="example1.istarmodel1#//@actors.2"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Hxla20EeefvbZZYXTuGA" name="new SDDiagram" repPath="#_MuLiEFpCEeaVH9B-2HgZYg">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Hxla20EeefvbZZYXTuGA" name="new SDDiagram" repPath="#_wWpEYC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='SDDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="example1.istarmodel1#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_IYoa20EeefvbZZYXTuGA" name="new Actors Diagram" repPath="#_nVjGAGlbEeaMfK51CHggsg">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_IYoa20EeefvbZZYXTuGA" name="new Actors Diagram" repPath="#_wXO6QC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="test.istarmodel#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_IYo620EeefvbZZYXTuGA" name="new Actors Diagram" repPath="#_8oLG8GxMEeah-4VsI7sc9Q">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_IYo620EeefvbZZYXTuGA" name="new Actors Diagram" repPath="#_wXW2EC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="test2.istarmodel#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_IYpa20EeefvbZZYXTuGA" name="diagram1" repPath="#_gtfWAGxSEeaKArdSD-HFyw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_IYpa20EeefvbZZYXTuGA" name="diagram1" repPath="#_wXYEMC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_I_sK20EeefvbZZYXTuGA" name="diagram2" repPath="#_h6hw4GxSEeaKArdSD-HFyw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_I_sK20EeefvbZZYXTuGA" name="diagram2" repPath="#_wXcVoC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.1"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_I_sq20EeefvbZZYXTuGA" name="new IstarDiagram" repPath="#_1ObbwGxYEeaDraYpgxQJwQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_I_sq20EeefvbZZYXTuGA" name="new IstarDiagram" repPath="#_wXfY8C63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Jmwa20EeefvbZZYXTuGA" name="new IstarDiagram" repPath="#_4C9Y4GxYEeaDraYpgxQJwQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Jmwa20EeefvbZZYXTuGA" name="new IstarDiagram" repPath="#_wXoi4C63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="example1.istarmodel1#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_KN0K20EeefvbZZYXTuGA" name="IstarDiagram2" repPath="#_tGAtsGxZEeaDraYpgxQJwQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_KN0K20EeefvbZZYXTuGA" name="IstarDiagram2" repPath="#_wZXoQC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.1"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_KN0q20EeefvbZZYXTuGA" name="overview" repPath="#_6p2QsGxaEeaDraYpgxQJwQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_KN0q20EeefvbZZYXTuGA" name="overview" repPath="#_wZaEgC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']"/>
         <target xmi:type="istarmodel1:DiagramContainer" href="diagramtest.istarmodel#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_KN1K20EeefvbZZYXTuGA" name="IstarDiagram" repPath="#_ZcNVMGxcEeaDraYpgxQJwQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_KN1K20EeefvbZZYXTuGA" name="IstarDiagram" repPath="#_wZx38C63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_K04K20EeefvbZZYXTuGA" name="IstarDiagramaaa" repPath="#_lKpSQGxcEeaDraYpgxQJwQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_K04K20EeefvbZZYXTuGA" name="IstarDiagramaaa" repPath="#_wZyfAC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_K04q20EeefvbZZYXTuGA" name="IstarDiagram" repPath="#_kNOCsG63Eea5SKKDhHWsfw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_K04q20EeefvbZZYXTuGA" name="IstarDiagram" repPath="#_wZzGEC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.2"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_K05K20EeefvbZZYXTuGA" name="OVERVIEW" repPath="#_U_11EHUDEeaO-PCiOfcTMw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_K05K20EeefvbZZYXTuGA" name="OVERVIEW" repPath="#_wZ1iUC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']"/>
         <target xmi:type="istarmodel1:DiagramContainer" href="diagramtest2.istarmodel#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Lb8K20EeefvbZZYXTuGA" name="DIAGRAM" repPath="#_X_akkHUDEeaO-PCiOfcTMw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Lb8K20EeefvbZZYXTuGA" name="DIAGRAM" repPath="#_wZ_6YC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest2.istarmodel#//@diagrams.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Lb8q20EeefvbZZYXTuGA" name="dia2" repPath="#_mwX3cHUDEeaO-PCiOfcTMw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_Lb8q20EeefvbZZYXTuGA" name="dia2" repPath="#_wakiIC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest2.istarmodel#//@diagrams.1"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_MDAa20EeefvbZZYXTuGA" name="Water usage diagram" repPath="#_XoPpIHjREeaj-bUmkKwmnA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_MDAa20EeefvbZZYXTuGA" name="Water usage diagram" repPath="#_wamXUC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="SiKAMUS_example.istarmodel#//@diagrams.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_MDA620EeefvbZZYXTuGA" name="diagram overview" repPath="#_QbvM4HjWEeaj-bUmkKwmnA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_x_MDA620EeefvbZZYXTuGA" name="diagram overview" repPath="#_wa-KwC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']"/>
         <target xmi:type="istarmodel1:DiagramContainer" href="SiKAMUS_example.istarmodel#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_NeGHYAE0EeiWf6PJIWOftw" name="new Diagrams Overview" repPath="#_Nd89cAE0EeiWf6PJIWOftw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_NeGHYAE0EeiWf6PJIWOftw" name="new Diagrams Overview" repPath="#_wbRswC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']"/>
         <target xmi:type="istarmodel1:DiagramContainer" href="SiKAMUS_example.istarmodel#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_P_UuBQE0EeiWf6PJIWOftw" name="new IstarDiagram" repPath="#_P_UuAAE0EeiWf6PJIWOftw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_P_UuBQE0EeiWf6PJIWOftw" name="new IstarDiagram" repPath="#_wbUJAC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="SiKAMUS_example.istarmodel#//@diagrams.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_5ACWsA2HEeiqPvAg3WoZfA" name="IstarDiagramUpdated" repPath="#_4_lqwA2HEeiqPvAg3WoZfA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_5ACWsA2HEeiqPvAg3WoZfA" name="IstarDiagramUpdated" repPath="#_wbV-MC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
         <target xmi:type="istarmodel1:IstarDiagram" href="SiKAMUS_example.istarmodel#//@diagrams.0"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_w85PwNp7EeePJIih37WLkw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_LANnsNp8EeePJIih37WLkw" name="new Diagrams Overview" repPath="#_LAD2sNp8EeePJIih37WLkw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_LANnsNp8EeePJIih37WLkw" name="new Diagrams Overview" repPath="#_wbAnAC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']"/>
         <target xmi:type="istarmodel1:DiagramContainer" href="SiKAMUS_example.istarmodel#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_1C04cNp9EeePJIih37WLkw" name="Role Diagram of water users" repPath="#_1C0RYNp9EeePJIih37WLkw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_1C04cNp9EeePJIih37WLkw" name="Role Diagram of water users" repPath="#_wbH7wC63EeiT_JUKjPED7g">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram xmi:id="_WJuQAFDtEeaE5_wdVS_JZg" name="new Actors Diagram">
+  <diagram:DSemanticDiagram xmi:id="_WJuQAFDtEeaE5_wdVS_JZg" name="new Actors Diagram" uid="_wQtbgC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_WJveIFDtEeaE5_wdVS_JZg" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_WJveIVDtEeaE5_wdVS_JZg"/>
     </ownedAnnotationEntries>
@@ -498,7 +498,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_ujVjM1MyEeaqa_ws2o8onA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_ujVjNFMyEeaqa_ws2o8onA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ujVjNVMyEeaqa_ws2o8onA" points="[15, -5, -326, 86]$[308, -86, -33, 5]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ujVjNVMyEeaqa_ws2o8onA" points="[18, -6, -294, 95]$[292, -95, -20, 6]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ujWKQFMyEeaqa_ws2o8onA" id="(0.8,0.36585365853658536)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ujWKQVMyEeaqa_ws2o8onA" id="(0.5,0.5)"/>
         </edges>
@@ -514,7 +514,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_EuRQIVM6Eeaqa_ws2o8onA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_EuRQIlM6Eeaqa_ws2o8onA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EuRQI1M6Eeaqa_ws2o8onA" points="[-33, 5, 139, -25]$[-158, 27, 14, -3]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EuRQI1M6Eeaqa_ws2o8onA" points="[0, 0, 172, -50]$[-172, 50, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EuR3NFM6Eeaqa_ws2o8onA" id="(0.49295774647887325,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EuR3NVM6Eeaqa_ws2o8onA" id="(0.5,1.0)"/>
         </edges>
@@ -530,7 +530,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_zfHKgVP_Eea-4oNh2z_usQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_zfHKglP_Eea-4oNh2z_usQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfHKg1P_Eea-4oNh2z_usQ" points="[-8, -5, 207, 108]$[-210, -110, 5, 3]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfHKg1P_Eea-4oNh2z_usQ" points="[-8, -4, 207, 93]$[-202, -91, 13, 6]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zfHxkFP_Eea-4oNh2z_usQ" id="(0.12195121951219512,0.39285714285714285)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zfHxkVP_Eea-4oNh2z_usQ" id="(0.45454545454545453,0.875)"/>
         </edges>
@@ -560,7 +560,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_s0cz4VQAEea-4oNh2z_usQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_s0cz4lQAEea-4oNh2z_usQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s0cz41QAEea-4oNh2z_usQ" points="[-14, 3, 159, -46]$[-169, 47, 4, -2]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s0cz41QAEea-4oNh2z_usQ" points="[-8, 3, 116, -55]$[-115, 53, 9, -5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s0da9lQAEea-4oNh2z_usQ" id="(0.21212121212121213,0.75)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s0da91QAEea-4oNh2z_usQ" id="(0.9024390243902439,0.45161290322580644)"/>
         </edges>
@@ -576,7 +576,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_vYFOQVQAEea-4oNh2z_usQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_vYFOQlQAEea-4oNh2z_usQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vYFOQ1QAEea-4oNh2z_usQ" points="[16, -11, -158, 123]$[166, -128, -8, 6]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vYFOQ1QAEea-4oNh2z_usQ" points="[12, -9, -177, 118]$[178, -120, -11, 7]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vYF1VlQAEea-4oNh2z_usQ" id="(0.7878787878787878,0.5333333333333333)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vYF1V1QAEea-4oNh2z_usQ" id="(0.38028169014084506,0.8524590163934426)"/>
         </edges>
@@ -624,7 +624,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_VpUkhFQVEea-4oNh2z_usQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_VpUkhVQVEea-4oNh2z_usQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VpUkhlQVEea-4oNh2z_usQ" points="[0, 0, 50, 198]$[-57, -194, -7, 4]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VpUkhlQVEea-4oNh2z_usQ" points="[0, 0, 63, 196]$[-62, -191, 1, 5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VpVLlFQVEea-4oNh2z_usQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VpVLlVQVEea-4oNh2z_usQ" id="(0.5303030303030303,0.9)"/>
         </edges>
@@ -640,7 +640,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_OnhOUVQYEea-4oNh2z_usQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OnhOUlQYEea-4oNh2z_usQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OnhOU1QYEea-4oNh2z_usQ" points="[0, 3, 55, 113]$[-55, -110, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OnhOU1QYEea-4oNh2z_usQ" points="[0, 0, 45, 91]$[-45, -91, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Onh1ZFQYEea-4oNh2z_usQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Onh1ZVQYEea-4oNh2z_usQ" id="(0.49382716049382713,1.0)"/>
         </edges>
@@ -656,7 +656,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_lf7wgVQYEea-4oNh2z_usQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_lf7wglQYEea-4oNh2z_usQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lf7wg1QYEea-4oNh2z_usQ" points="[-20, 18, 170, -69]$[-171, 79, 19, -8]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lf7wg1QYEea-4oNh2z_usQ" points="[-33, 14, 157, -71]$[-171, 76, 19, -9]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lf7wilQYEea-4oNh2z_usQ" id="(0.5,0.4864864864864865)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lf7wi1QYEea-4oNh2z_usQ" id="(0.5,0.5)"/>
         </edges>
@@ -720,7 +720,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZKcccVTGEeaxxKjkeiuotQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_ZKccclTGEeaxxKjkeiuotQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZKccc1TGEeaxxKjkeiuotQ" points="[0, 0, 114, 145]$[-115, -145, -1, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZKccc1TGEeaxxKjkeiuotQ" points="[0, 0, 114, 142]$[-114, -142, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZKccelTGEeaxxKjkeiuotQ" id="(0.3902439024390244,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZKcce1TGEeaxxKjkeiuotQ" id="(1.0,0.5081967213114754)"/>
         </edges>
@@ -752,7 +752,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_fBcsEVTGEeaxxKjkeiuotQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_fBcsElTGEeaxxKjkeiuotQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fBcsE1TGEeaxxKjkeiuotQ" points="[-1, 0, -557, -139]$[556, 139, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fBcsE1TGEeaxxKjkeiuotQ" points="[0, 0, -561, -147]$[561, 147, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fBcsGlTGEeaxxKjkeiuotQ" id="(1.0,0.5135135135135135)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fBcsG1TGEeaxxKjkeiuotQ" id="(0.0,0.46160794941282746)"/>
         </edges>
@@ -768,7 +768,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_dXCesVlmEea8JoqXYgTbgw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_dXCesllmEea8JoqXYgTbgw" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dXCes1lmEea8JoqXYgTbgw" points="[-2, 3, 22, 93]$[-24, -90, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dXCes1lmEea8JoqXYgTbgw" points="[-1, -4, 18, 77]$[-19, -81, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXQhIllmEea8JoqXYgTbgw" id="(0.15454545454545454,0.11290322580645161)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dXQhI1lmEea8JoqXYgTbgw" id="(0.29577464788732394,1.0)"/>
         </edges>
@@ -1365,7 +1365,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="example1.istarmodel1#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_y61ZoFftEea_N5W1d5668Q" name="actors diagram2">
+  <diagram:DSemanticDiagram xmi:id="_y61ZoFftEea_N5W1d5668Q" name="actors diagram2" uid="_wV6roC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_y61ZoVftEea_N5W1d5668Q" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_y61ZolftEea_N5W1d5668Q"/>
     </ownedAnnotationEntries>
@@ -1437,7 +1437,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="example2.istarmodel1#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_wyu9UFfwEea_N5W1d5668Q" name="new Role Diagram">
+  <diagram:DSemanticDiagram xmi:id="_wyu9UFfwEea_N5W1d5668Q" name="new Role Diagram" uid="_wWBZUC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_wyu9UVfwEea_N5W1d5668Q" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_wyu9UlfwEea_N5W1d5668Q"/>
     </ownedAnnotationEntries>
@@ -1764,7 +1764,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:Role" href="example1.istarmodel1#//@actors.0"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_YeT6gFo9EeaVDIVQKHtB5g" name="Role Diagram of New Role">
+  <diagram:DSemanticDiagram xmi:id="_YeT6gFo9EeaVDIVQKHtB5g" name="Role Diagram of New Role" uid="_wWeFQC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_YeT6gVo9EeaVDIVQKHtB5g" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_YeT6glo9EeaVDIVQKHtB5g"/>
     </ownedAnnotationEntries>
@@ -1792,7 +1792,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_YeT6hVo9EeaVDIVQKHtB5g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_Oj_7kFo_Eeay0NogFbrWGg" name="Role Diagram of Bob">
+  <diagram:DSemanticDiagram xmi:id="_Oj_7kFo_Eeay0NogFbrWGg" name="Role Diagram of Bob" uid="_wWiWsC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Oj_7kVo_Eeay0NogFbrWGg" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Oj_7klo_Eeay0NogFbrWGg"/>
     </ownedAnnotationEntries>
@@ -1861,7 +1861,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:Role" href="example1.istarmodel1#//@actors.2"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_MuLiEFpCEeaVH9B-2HgZYg" name="new SDDiagram">
+  <diagram:DSemanticDiagram xmi:id="_MuLiEFpCEeaVH9B-2HgZYg" name="new SDDiagram" uid="_wWpEYC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_MuLiEVpCEeaVH9B-2HgZYg" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_MuLiElpCEeaVH9B-2HgZYg"/>
     </ownedAnnotationEntries>
@@ -2067,7 +2067,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Qc_ZUVpGEeaVH9B-2HgZYg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Qc_ZUlpGEeaVH9B-2HgZYg" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Qc_ZU1pGEeaVH9B-2HgZYg" points="[31, 10, -170, -28]$[166, 32, -35, -6]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Qc_ZU1pGEeaVH9B-2HgZYg" points="[32, 6, -169, -32]$[166, 31, -35, -7]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QdDDsFpGEeaVH9B-2HgZYg" id="(0.5,0.4857142857142857)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QdDDsVpGEeaVH9B-2HgZYg" id="(0.5,0.5)"/>
         </edges>
@@ -2267,7 +2267,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='SDDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="example1.istarmodel1#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_nVjGAGlbEeaMfK51CHggsg" name="new Actors Diagram">
+  <diagram:DSemanticDiagram xmi:id="_nVjGAGlbEeaMfK51CHggsg" name="new Actors Diagram" uid="_wXO6QC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_nVjGAWlbEeaMfK51CHggsg" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_nVjGAmlbEeaMfK51CHggsg"/>
     </ownedAnnotationEntries>
@@ -2340,7 +2340,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="test.istarmodel#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_8oLG8GxMEeah-4VsI7sc9Q" name="new Actors Diagram">
+  <diagram:DSemanticDiagram xmi:id="_8oLG8GxMEeah-4VsI7sc9Q" name="new Actors Diagram" uid="_wXW2EC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_8oLG8WxMEeah-4VsI7sc9Q" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_8oLG8mxMEeah-4VsI7sc9Q"/>
     </ownedAnnotationEntries>
@@ -2354,7 +2354,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="test2.istarmodel#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_gtfWAGxSEeaKArdSD-HFyw" name="diagram1">
+  <diagram:DSemanticDiagram xmi:id="_gtfWAGxSEeaKArdSD-HFyw" name="diagram1" uid="_wXYEMC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_gtfWAWxSEeaKArdSD-HFyw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_gtfWAmxSEeaKArdSD-HFyw"/>
     </ownedAnnotationEntries>
@@ -2406,7 +2406,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.0"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_h6hw4GxSEeaKArdSD-HFyw" name="diagram2">
+  <diagram:DSemanticDiagram xmi:id="_h6hw4GxSEeaKArdSD-HFyw" name="diagram2" uid="_wXcVoC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_h6hw4WxSEeaKArdSD-HFyw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_h6hw4mxSEeaKArdSD-HFyw"/>
     </ownedAnnotationEntries>
@@ -2439,7 +2439,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Actors%20Diagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.1"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_1ObbwGxYEeaDraYpgxQJwQ" name="new IstarDiagram">
+  <diagram:DSemanticDiagram xmi:id="_1ObbwGxYEeaDraYpgxQJwQ" name="new IstarDiagram" uid="_wXfY8C63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_1ObbwWxYEeaDraYpgxQJwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_1ObbwmxYEeaDraYpgxQJwQ"/>
     </ownedAnnotationEntries>
@@ -2553,7 +2553,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.0"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_4C9Y4GxYEeaDraYpgxQJwQ" name="new IstarDiagram">
+  <diagram:DSemanticDiagram xmi:id="_4C9Y4GxYEeaDraYpgxQJwQ" name="new IstarDiagram" uid="_wXoi4C63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_4C9Y4WxYEeaDraYpgxQJwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_4C9Y4mxYEeaDraYpgxQJwQ"/>
     </ownedAnnotationEntries>
@@ -2918,7 +2918,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4D8QUGxYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4D8QUWxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4D8QUmxYEeaDraYpgxQJwQ" points="[35, 30, -119, -95]$[141, 123, -13, -2]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4D8QUmxYEeaDraYpgxQJwQ" points="[0, 0, -154, -145]$[154, 145, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EBv4GxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EBv4WxYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -2934,7 +2934,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EBv42xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EBv5GxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EBv5WxYEeaDraYpgxQJwQ" points="[-1, 0, -171, -36]$[120, 25, -50, -11]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EBv5WxYEeaDraYpgxQJwQ" points="[0, 0, -183, -23]$[183, 23, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4ECW9mxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4ECW92xYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -2950,7 +2950,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EC-AWxYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EC-AmxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EC-A2xYEeaDraYpgxQJwQ" points="[-5, 24, 36, -189]$[-41, 212, 0, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EC-A2xYEeaDraYpgxQJwQ" points="[0, 0, 41, -233]$[-41, 233, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EDlEGxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EDlEWxYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -2966,7 +2966,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EDlE2xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EDlFGxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EDlFWxYEeaDraYpgxQJwQ" points="[16, 24, -126, -183]$[142, 206, 0, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EDlFWxYEeaDraYpgxQJwQ" points="[0, 0, -142, -213]$[142, 213, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EEMIGxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EEMIWxYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -2998,7 +2998,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EEzNWxYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EEzNmxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EEzN2xYEeaDraYpgxQJwQ" points="[0, 0, 86, 34]$[-87, -36, -1, -2]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EEzN2xYEeaDraYpgxQJwQ" points="[0, 0, 90, 47]$[-90, -47, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EFaRGxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EFaRWxYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -3014,7 +3014,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EFaR2xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EFaSGxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EFaSWxYEeaDraYpgxQJwQ" points="[0, 0, -48, 12]$[48, -13, 0, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EFaSWxYEeaDraYpgxQJwQ" points="[0, 0, -48, -8]$[48, 8, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EGBVmxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EGBV2xYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -3030,7 +3030,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EGBWWxYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EGBWmxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EGBW2xYEeaDraYpgxQJwQ" points="[0, 0, 106, 98]$[-106, -99, 0, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EGBW2xYEeaDraYpgxQJwQ" points="[0, 0, 106, 98]$[-106, -98, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EGoZmxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EGoZ2xYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -3046,7 +3046,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EHPcWxYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EHPcmxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EHPc2xYEeaDraYpgxQJwQ" points="[0, 0, 191, 201]$[-191, -202, 0, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EHPc2xYEeaDraYpgxQJwQ" points="[0, 0, 191, 201]$[-191, -201, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EH2gGxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EH2gWxYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -3062,7 +3062,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EH2g2xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EH2hGxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EH2hWxYEeaDraYpgxQJwQ" points="[-27, 3, 253, -34]$[-253, 33, 27, -4]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EH2hWxYEeaDraYpgxQJwQ" points="[0, 0, 280, -37]$[-280, 37, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EIdkmxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EIdk2xYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -3078,7 +3078,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EIdlWxYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EIdlmxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EIdl2xYEeaDraYpgxQJwQ" points="[-43, -23, 352, 180]$[-358, -188, 37, 15]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EIdl2xYEeaDraYpgxQJwQ" points="[-43, -23, 356, 186]$[-358, -188, 41, 21]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EJEpGxYEeaDraYpgxQJwQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EJEpWxYEeaDraYpgxQJwQ" id="(0.5,0.4909090909090909)"/>
         </edges>
@@ -3094,7 +3094,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EJEp2xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EJEqGxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EJEqWxYEeaDraYpgxQJwQ" points="[32, 2, -264, -65]$[277, 62, -19, -5]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EJEqWxYEeaDraYpgxQJwQ" points="[34, 8, -262, -67]$[277, 70, -19, -5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EJrsGxYEeaDraYpgxQJwQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EJrsWxYEeaDraYpgxQJwQ" id="(0.5,0.4909090909090909)"/>
         </edges>
@@ -3158,7 +3158,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4ENWE2xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4ENWFGxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4ENWFWxYEeaDraYpgxQJwQ" points="[-7, 16, -18, -177]$[7, 156, -4, -37]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4ENWFWxYEeaDraYpgxQJwQ" points="[0, 0, -11, -193]$[11, 193, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EN9JmxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EOkMGxYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -3174,7 +3174,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EOkMmxYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EOkM2xYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EOkNGxYEeaDraYpgxQJwQ" points="[-18, -19, 138, 94]$[-102, -113, 54, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EOkNGxYEeaDraYpgxQJwQ" points="[-24, -19, 136, 109]$[-133, -106, 27, 22]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EPLQGxYEeaDraYpgxQJwQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EPLQWxYEeaDraYpgxQJwQ" id="(0.5,0.5)"/>
         </edges>
@@ -3190,7 +3190,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EPLQ2xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EPLRGxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EPLRWxYEeaDraYpgxQJwQ" points="[4, -43, 37, 54]$[9, -78, 42, 19]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EPLRWxYEeaDraYpgxQJwQ" points="[-15, -43, 22, 69]$[-30, -90, 7, 22]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EPyVGxYEeaDraYpgxQJwQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EPyVWxYEeaDraYpgxQJwQ" id="(0.5,0.5)"/>
         </edges>
@@ -3206,7 +3206,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EPyV2xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EPyWGxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EPyWWxYEeaDraYpgxQJwQ" points="[13, 1, -272, 20]$[285, -19, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EPyWWxYEeaDraYpgxQJwQ" points="[0, 0, -285, 13]$[285, -13, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EQZZGxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4EQZZWxYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -3222,7 +3222,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4EQZZ2xYEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4EQZaGxYEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EQZaWxYEeaDraYpgxQJwQ" points="[26, 9, -76, 8]$[102, 1, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4EQZaWxYEeaDraYpgxQJwQ" points="[0, 0, -102, -7]$[102, 7, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4ERAdmxYEeaDraYpgxQJwQ" id="(0.5,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4ERAd2xYEeaDraYpgxQJwQ" id="(0.5,1.0)"/>
         </edges>
@@ -3254,7 +3254,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_CHb5EWxaEeaDraYpgxQJwQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_CHb5EmxaEeaDraYpgxQJwQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CHb5E2xaEeaDraYpgxQJwQ" points="[371, 310, 371, 310]$[651, 275, 651, 275]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CHb5E2xaEeaDraYpgxQJwQ" points="[34, -5, -248, 32]$[247, -33, -35, 4]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CHcgIGxaEeaDraYpgxQJwQ" id="(0.4925373134328358,0.4883720930232558)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CHcgIWxaEeaDraYpgxQJwQ" id="(0.5,0.5)"/>
         </edges>
@@ -3775,7 +3775,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="example1.istarmodel1#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_tGAtsGxZEeaDraYpgxQJwQ" name="IstarDiagram2">
+  <diagram:DSemanticDiagram xmi:id="_tGAtsGxZEeaDraYpgxQJwQ" name="IstarDiagram2" uid="_wZXoQC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_tGAtsWxZEeaDraYpgxQJwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_tGAtsmxZEeaDraYpgxQJwQ"/>
     </ownedAnnotationEntries>
@@ -3811,7 +3811,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.1"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_6p2QsGxaEeaDraYpgxQJwQ" name="overview">
+  <diagram:DSemanticDiagram xmi:id="_6p2QsGxaEeaDraYpgxQJwQ" name="overview" uid="_wZaEgC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_6p2QsWxaEeaDraYpgxQJwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_6p2QsmxaEeaDraYpgxQJwQ"/>
     </ownedAnnotationEntries>
@@ -3912,7 +3912,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_SIaHgW65Eea5SKKDhHWsfw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_SIaHgm65Eea5SKKDhHWsfw" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SIaHg265Eea5SKKDhHWsfw" points="[30, 29, 30, 29]$[405, 104, 405, 104]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SIaHg265Eea5SKKDhHWsfw" points="[64, 12, -311, -63]$[311, 62, -64, -13]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SIx68G65Eea5SKKDhHWsfw" id="(0.5,0.49295774647887325)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SIx68W65Eea5SKKDhHWsfw" id="(0.5,0.49295774647887325)"/>
         </edges>
@@ -3928,7 +3928,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_SIx68265Eea5SKKDhHWsfw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_SIx69G65Eea5SKKDhHWsfw" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SIx69W65Eea5SKKDhHWsfw" points="[405, 104, 405, 104]$[30, 29, 30, 29]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SIx69W65Eea5SKKDhHWsfw" points="[-64, -13, 311, 62]$[-311, -63, 64, 12]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SIyiBm65Eea5SKKDhHWsfw" id="(0.5,0.49295774647887325)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SIyiB265Eea5SKKDhHWsfw" id="(0.5,0.49295774647887325)"/>
         </edges>
@@ -3960,7 +3960,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_uQOGyW65Eea5SKKDhHWsfw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_uQOGym65Eea5SKKDhHWsfw" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uQOGy265Eea5SKKDhHWsfw" points="[-520, -31, -133, -61]$[-5, -61, 382, -91]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uQOGy265Eea5SKKDhHWsfw" points="[64, -4, -451, 26]$[451, -27, -64, 3]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uQOt1G65Eea5SKKDhHWsfw" id="(0.5,0.49295774647887325)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uQOt1W65Eea5SKKDhHWsfw" id="(0.5,0.49295774647887325)"/>
         </edges>
@@ -4079,7 +4079,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']/@defaultLayer"/>
     <target xmi:type="istarmodel1:DiagramContainer" href="diagramtest.istarmodel#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_ZcNVMGxcEeaDraYpgxQJwQ" name="IstarDiagram">
+  <diagram:DSemanticDiagram xmi:id="_ZcNVMGxcEeaDraYpgxQJwQ" name="IstarDiagram" uid="_wZx38C63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ZcNVMWxcEeaDraYpgxQJwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_ZcNVMmxcEeaDraYpgxQJwQ"/>
     </ownedAnnotationEntries>
@@ -4092,7 +4092,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_ZcNVM2xcEeaDraYpgxQJwQ"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_lKpSQGxcEeaDraYpgxQJwQ" name="IstarDiagramaaa">
+  <diagram:DSemanticDiagram xmi:id="_lKpSQGxcEeaDraYpgxQJwQ" name="IstarDiagramaaa" uid="_wZyfAC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_lKpSQWxcEeaDraYpgxQJwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_lKpSQmxcEeaDraYpgxQJwQ"/>
     </ownedAnnotationEntries>
@@ -4105,7 +4105,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_lKpSQ2xcEeaDraYpgxQJwQ"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_kNOCsG63Eea5SKKDhHWsfw" name="IstarDiagram">
+  <diagram:DSemanticDiagram xmi:id="_kNOCsG63Eea5SKKDhHWsfw" name="IstarDiagram" uid="_wZzGEC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_kNOCsW63Eea5SKKDhHWsfw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_kNOCsm63Eea5SKKDhHWsfw"/>
     </ownedAnnotationEntries>
@@ -4138,7 +4138,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest.istarmodel#//@diagrams.2"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_U_11EHUDEeaO-PCiOfcTMw" name="OVERVIEW">
+  <diagram:DSemanticDiagram xmi:id="_U_11EHUDEeaO-PCiOfcTMw" name="OVERVIEW" uid="_wZ1iUC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_U_2cIHUDEeaO-PCiOfcTMw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_U_2cIXUDEeaO-PCiOfcTMw"/>
     </ownedAnnotationEntries>
@@ -4224,7 +4224,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Y_7qQXjQEeaj-bUmkKwmnA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Y_7qQnjQEeaj-bUmkKwmnA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y_7qQ3jQEeaj-bUmkKwmnA" points="[400, -41, -5, -41]$[-133, -57, -538, -57]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y_7qQ3jQEeaj-bUmkKwmnA" points="[-64, -2, 469, 14]$[-469, -15, 64, 1]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y_84YHjQEeaj-bUmkKwmnA" id="(0.5,0.49295774647887325)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y_84YXjQEeaj-bUmkKwmnA" id="(0.5,0.49295774647887325)"/>
         </edges>
@@ -4297,7 +4297,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']/@defaultLayer"/>
     <target xmi:type="istarmodel1:DiagramContainer" href="diagramtest2.istarmodel#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_X_akkHUDEeaO-PCiOfcTMw" name="DIAGRAM">
+  <diagram:DSemanticDiagram xmi:id="_X_akkHUDEeaO-PCiOfcTMw" name="DIAGRAM" uid="_wZ_6YC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_X_bLoHUDEeaO-PCiOfcTMw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_X_bLoXUDEeaO-PCiOfcTMw"/>
     </ownedAnnotationEntries>
@@ -4466,7 +4466,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_xv0nkXUDEeaO-PCiOfcTMw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_xv0nknUDEeaO-PCiOfcTMw" fontName="Arial" fontHeight="10"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xv0nk3UDEeaO-PCiOfcTMw" points="[0, -3, 0, -73]$[0, 70, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xv0nk3UDEeaO-PCiOfcTMw" points="[0, 0, 0, -70]$[0, 70, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xv1OpHUDEeaO-PCiOfcTMw" id="(0.5,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xv1OpXUDEeaO-PCiOfcTMw" id="(0.5,0.0)"/>
         </edges>
@@ -4846,7 +4846,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest2.istarmodel#//@diagrams.0"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_mwX3cHUDEeaO-PCiOfcTMw" name="dia2">
+  <diagram:DSemanticDiagram xmi:id="_mwX3cHUDEeaO-PCiOfcTMw" name="dia2" uid="_wakiIC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_mwX3cXUDEeaO-PCiOfcTMw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_mwX3cnUDEeaO-PCiOfcTMw"/>
     </ownedAnnotationEntries>
@@ -4879,7 +4879,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="diagramtest2.istarmodel#//@diagrams.1"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_XoPpIHjREeaj-bUmkKwmnA" name="Water usage diagram">
+  <diagram:DSemanticDiagram xmi:id="_XoPpIHjREeaj-bUmkKwmnA" name="Water usage diagram" uid="_wamXUC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_XoQQMHjREeaj-bUmkKwmnA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_XoQQMXjREeaj-bUmkKwmnA"/>
     </ownedAnnotationEntries>
@@ -5203,7 +5203,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="SiKAMUS_example.istarmodel#//@diagrams.0"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_QbvM4HjWEeaj-bUmkKwmnA" name="diagram overview">
+  <diagram:DSemanticDiagram xmi:id="_QbvM4HjWEeaj-bUmkKwmnA" name="diagram overview" uid="_wa-KwC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_QbvM4XjWEeaj-bUmkKwmnA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_QbvM4njWEeaj-bUmkKwmnA"/>
     </ownedAnnotationEntries>
@@ -5237,7 +5237,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']/@defaultLayer"/>
     <target xmi:type="istarmodel1:DiagramContainer" href="SiKAMUS_example.istarmodel#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_LAD2sNp8EeePJIih37WLkw" name="new Diagrams Overview">
+  <diagram:DSemanticDiagram xmi:id="_LAD2sNp8EeePJIih37WLkw" name="new Diagrams Overview" uid="_wbAnAC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_LAD2sdp8EeePJIih37WLkw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_LAD2stp8EeePJIih37WLkw"/>
     </ownedAnnotationEntries>
@@ -5354,7 +5354,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']/@defaultLayer"/>
     <target xmi:type="istarmodel1:DiagramContainer" href="SiKAMUS_example.istarmodel#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_1C0RYNp9EeePJIih37WLkw" name="Role Diagram of water users">
+  <diagram:DSemanticDiagram xmi:id="_1C0RYNp9EeePJIih37WLkw" name="Role Diagram of water users" uid="_wbH7wC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_1C0RYdp9EeePJIih37WLkw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_1C0RYtp9EeePJIih37WLkw"/>
     </ownedAnnotationEntries>
@@ -5518,7 +5518,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_1C0Rdtp9EeePJIih37WLkw"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Role%20Diagram']/@defaultLayer"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_Nd89cAE0EeiWf6PJIWOftw" name="new Diagrams Overview">
+  <diagram:DSemanticDiagram xmi:id="_Nd89cAE0EeiWf6PJIWOftw" name="new Diagrams Overview" uid="_wbRswC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Nd89cQE0EeiWf6PJIWOftw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Nd89cgE0EeiWf6PJIWOftw"/>
     </ownedAnnotationEntries>
@@ -5549,21 +5549,515 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='Diagrams%20Overview']/@defaultLayer"/>
     <target xmi:type="istarmodel1:DiagramContainer" href="SiKAMUS_example.istarmodel#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_P_UuAAE0EeiWf6PJIWOftw" name="new IstarDiagram">
+  <diagram:DSemanticDiagram xmi:id="_P_UuAAE0EeiWf6PJIWOftw" name="new IstarDiagram" uid="_wbUJAC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_P_UuAQE0EeiWf6PJIWOftw" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_P_UuAgE0EeiWf6PJIWOftw"/>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_P_peIAE0EeiWf6PJIWOftw" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_P_peIQE0EeiWf6PJIWOftw" type="Sirius" element="_P_UuAAE0EeiWf6PJIWOftw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Xa_CoC64EeiT_JUKjPED7g" type="2001" element="_XXY8EC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_XbpJ8C64EeiT_JUKjPED7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XbpJ8S64EeiT_JUKjPED7g" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XsebRC64EeiT_JUKjPED7g" type="3005" element="_XYM0YC64EeiT_JUKjPED7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XsebRS64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XsebRi64EeiT_JUKjPED7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Xa_CoS64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xa_Coi64EeiT_JUKjPED7g" x="570" y="300" width="100" height="55"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Xru0YC64EeiT_JUKjPED7g" type="2001" element="_XYWlYC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_XsBvUC64EeiT_JUKjPED7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XsBvUS64EeiT_JUKjPED7g" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XsebRy64EeiT_JUKjPED7g" type="3005" element="_XYWlYS64EeiT_JUKjPED7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XsebSC64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XsebSS64EeiT_JUKjPED7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Xru0YS64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xru0Yi64EeiT_JUKjPED7g" x="765" y="300" width="100" height="55"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XsVRUC64EeiT_JUKjPED7g" type="2002" element="_XYpgUC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_XsVRUy64EeiT_JUKjPED7g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XsVRVC64EeiT_JUKjPED7g" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_Xs_YoC64EeiT_JUKjPED7g" type="3007" element="_XYyqQC64EeiT_JUKjPED7g">
+              <children xmi:type="notation:Node" xmi:id="_Xs_Yoy64EeiT_JUKjPED7g" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Xs_YpC64EeiT_JUKjPED7g" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XtnqwC64EeiT_JUKjPED7g" type="3005" element="_XYyqQS64EeiT_JUKjPED7g">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XtnqwS64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xtnqwi64EeiT_JUKjPED7g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Xs_YoS64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xs_Yoi64EeiT_JUKjPED7g" x="25" y="24" width="100" height="56"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XsVRVS64EeiT_JUKjPED7g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XsVRVi64EeiT_JUKjPED7g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XsebSi64EeiT_JUKjPED7g" type="3012" element="_XYpgUi64EeiT_JUKjPED7g">
+            <children xmi:type="notation:Node" xmi:id="_XsebTS64EeiT_JUKjPED7g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XsebTi64EeiT_JUKjPED7g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Xto44C64EeiT_JUKjPED7g" type="3005" element="_XYpgUy64EeiT_JUKjPED7g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Xto44S64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xto44i64EeiT_JUKjPED7g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XsebSy64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XsebTC64EeiT_JUKjPED7g" x="-52" width="60" height="60"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XsVRUS64EeiT_JUKjPED7g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XsVRUi64EeiT_JUKjPED7g" x="660" y="150"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XsVRVy64EeiT_JUKjPED7g" type="2002" element="_XYyqQi64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_XsVRWi64EeiT_JUKjPED7g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XsVRWy64EeiT_JUKjPED7g" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_Xtyp4C64EeiT_JUKjPED7g" type="3007" element="_XZAssC64EeiT_JUKjPED7g">
+              <children xmi:type="notation:Node" xmi:id="_Xtyp4y64EeiT_JUKjPED7g" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Xtyp5C64EeiT_JUKjPED7g" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XuZG0C64EeiT_JUKjPED7g" type="3005" element="_XZAssS64EeiT_JUKjPED7g">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XuZG0S64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XuZG0i64EeiT_JUKjPED7g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Xtyp4S64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xtyp4i64EeiT_JUKjPED7g" x="160" y="24" width="100" height="56"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Xt8a4C64EeiT_JUKjPED7g" type="3007" element="_XZAssi64EeiT_JUKjPED7g">
+              <children xmi:type="notation:Node" xmi:id="_Xt8a4y64EeiT_JUKjPED7g" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Xt8a5C64EeiT_JUKjPED7g" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XuZG0y64EeiT_JUKjPED7g" type="3005" element="_XZAssy64EeiT_JUKjPED7g">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XuZG1C64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XuZG1S64EeiT_JUKjPED7g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Xt8a4S64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xt8a4i64EeiT_JUKjPED7g" x="25" y="24" width="100" height="56"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XuGL4C64EeiT_JUKjPED7g" type="3007" element="_XZJ2oC64EeiT_JUKjPED7g">
+              <children xmi:type="notation:Node" xmi:id="_XuPV0C64EeiT_JUKjPED7g" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_XuPV0S64EeiT_JUKjPED7g" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XuZG1i64EeiT_JUKjPED7g" type="3005" element="_XZJ2oS64EeiT_JUKjPED7g">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XuZG1y64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XuZG2C64EeiT_JUKjPED7g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XuGL4S64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XuGL4i64EeiT_JUKjPED7g" x="160" y="114" width="100" height="55"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XsVRXC64EeiT_JUKjPED7g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XsVRXS64EeiT_JUKjPED7g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xto44y64EeiT_JUKjPED7g" type="3012" element="_XYyqRC64EeiT_JUKjPED7g">
+            <children xmi:type="notation:Node" xmi:id="_Xto45i64EeiT_JUKjPED7g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Xto45y64EeiT_JUKjPED7g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XuZG2S64EeiT_JUKjPED7g" type="3005" element="_XYyqRS64EeiT_JUKjPED7g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XuZG2i64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XuZG2y64EeiT_JUKjPED7g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Xto45C64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xto45S64EeiT_JUKjPED7g" x="-52" width="60" height="60"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XsVRWC64EeiT_JUKjPED7g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XsVRWS64EeiT_JUKjPED7g" x="30" y="150"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XsVRXi64EeiT_JUKjPED7g" type="2002" element="_XZJ2oi64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_XsebQC64EeiT_JUKjPED7g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XsebQS64EeiT_JUKjPED7g" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_Xul7IC64EeiT_JUKjPED7g" type="3007" element="_XZTnoS64EeiT_JUKjPED7g">
+              <children xmi:type="notation:Node" xmi:id="_Xul7Iy64EeiT_JUKjPED7g" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Xul7JC64EeiT_JUKjPED7g" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_XvCnEC64EeiT_JUKjPED7g" type="3005" element="_XZTnoi64EeiT_JUKjPED7g">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_XvCnES64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XvCnEi64EeiT_JUKjPED7g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Xul7IS64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xul7Ii64EeiT_JUKjPED7g" x="25" y="24" width="100" height="56"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XsebQi64EeiT_JUKjPED7g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XsebQy64EeiT_JUKjPED7g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XuZG3C64EeiT_JUKjPED7g" type="3012" element="_XZJ2pC64EeiT_JUKjPED7g">
+            <children xmi:type="notation:Node" xmi:id="_XuZG3y64EeiT_JUKjPED7g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XuZG4C64EeiT_JUKjPED7g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XvCnEy64EeiT_JUKjPED7g" type="3005" element="_XZTnoC64EeiT_JUKjPED7g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XvCnFC64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XvCnFS64EeiT_JUKjPED7g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XuZG3S64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XuZG3i64EeiT_JUKjPED7g" x="-52" width="60" height="60"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XsVRXy64EeiT_JUKjPED7g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XsVRYC64EeiT_JUKjPED7g" x="390" y="150"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_jqpdcC64EeiT_JUKjPED7g" type="2002" element="_jpDiAC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_jqqEgC64EeiT_JUKjPED7g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_jqqrkC64EeiT_JUKjPED7g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_jqqrkS64EeiT_JUKjPED7g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_jqqrki64EeiT_JUKjPED7g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jqqrky64EeiT_JUKjPED7g" type="3012" element="_jpPvQC64EeiT_JUKjPED7g">
+            <children xmi:type="notation:Node" xmi:id="_jqqrli64EeiT_JUKjPED7g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jqqrly64EeiT_JUKjPED7g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jqqrmC64EeiT_JUKjPED7g" type="3005" element="_jpPvQS64EeiT_JUKjPED7g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jqqrmS64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jqqrmi64EeiT_JUKjPED7g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jqqrlC64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jqqrlS64EeiT_JUKjPED7g" x="-52" width="60" height="60"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jqpdcS64EeiT_JUKjPED7g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jqpdci64EeiT_JUKjPED7g" x="669" y="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kd108C64EeiT_JUKjPED7g" type="2002" element="_kcUyAC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_kd3DEC64EeiT_JUKjPED7g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_kd3DES64EeiT_JUKjPED7g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kd3DEi64EeiT_JUKjPED7g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kd3DEy64EeiT_JUKjPED7g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kd44QC64EeiT_JUKjPED7g" type="3012" element="_kcUyAi64EeiT_JUKjPED7g">
+            <children xmi:type="notation:Node" xmi:id="_kd6GYC64EeiT_JUKjPED7g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_kd6GYS64EeiT_JUKjPED7g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_kd7UgC64EeiT_JUKjPED7g" type="3005" element="_kcUyAy64EeiT_JUKjPED7g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_kd7UgS64EeiT_JUKjPED7g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kd7Ugi64EeiT_JUKjPED7g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_kd44QS64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kd44Qi64EeiT_JUKjPED7g" x="-52" width="60" height="60"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_kd108S64EeiT_JUKjPED7g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kd108i64EeiT_JUKjPED7g" x="315" y="45"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_P_peIgE0EeiWf6PJIWOftw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_Xwsz8C64EeiT_JUKjPED7g" type="4001" element="_XZmikC64EeiT_JUKjPED7g" source="_Xtyp4C64EeiT_JUKjPED7g" target="_Xru0YC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_Xwsz9C64EeiT_JUKjPED7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xwsz9S64EeiT_JUKjPED7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xwsz9i64EeiT_JUKjPED7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xwsz9y64EeiT_JUKjPED7g" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xwsz-C64EeiT_JUKjPED7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xwsz-S64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Xwsz8S64EeiT_JUKjPED7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Xwsz8i64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xwsz8y64EeiT_JUKjPED7g" points="[50, 10, -520, -109]$[520, 108, -50, -11]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xw2k8C64EeiT_JUKjPED7g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xw2k8S64EeiT_JUKjPED7g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Xw2k8i64EeiT_JUKjPED7g" type="4001" element="_XZwTki64EeiT_JUKjPED7g" source="_Xt8a4C64EeiT_JUKjPED7g" target="_Xa_CoC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_Xw2k9i64EeiT_JUKjPED7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xw2k9y64EeiT_JUKjPED7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xw2k-C64EeiT_JUKjPED7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xw2k-S64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xw2k-i64EeiT_JUKjPED7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xw2k-y64EeiT_JUKjPED7g" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Xw2k8y64EeiT_JUKjPED7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Xw2k9C64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xw2k9S64EeiT_JUKjPED7g" points="[50, 11, -460, -108]$[460, 107, -50, -12]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxAV8C64EeiT_JUKjPED7g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxAV8S64EeiT_JUKjPED7g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XxAV8i64EeiT_JUKjPED7g" type="4001" element="_XZwTlS64EeiT_JUKjPED7g" source="_Xa_CoC64EeiT_JUKjPED7g" target="_Xs_YoC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_XxAV9i64EeiT_JUKjPED7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAV9y64EeiT_JUKjPED7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XxAV-C64EeiT_JUKjPED7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAV-S64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XxAV-i64EeiT_JUKjPED7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAV-y64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XxAV8y64EeiT_JUKjPED7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XxAV9C64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XxAV9S64EeiT_JUKjPED7g" points="[0, 0, 0, -28]$[0, 0, 0, -28]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxAV_C64EeiT_JUKjPED7g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxAV_S64EeiT_JUKjPED7g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XxAV_i64EeiT_JUKjPED7g" type="4001" element="_XZwTmC64EeiT_JUKjPED7g" source="_Xru0YC64EeiT_JUKjPED7g" target="_Xs_YoC64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_XxAWAi64EeiT_JUKjPED7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAWAy64EeiT_JUKjPED7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XxAWBC64EeiT_JUKjPED7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAWBS64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XxAWBi64EeiT_JUKjPED7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAWBy64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XxAV_y64EeiT_JUKjPED7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XxAWAC64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XxAWAS64EeiT_JUKjPED7g" points="[0, 0, 0, -28]$[0, 0, 0, -28]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxAWCC64EeiT_JUKjPED7g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxAWCS64EeiT_JUKjPED7g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XxAWCi64EeiT_JUKjPED7g" type="4001" element="_XZ9H4C64EeiT_JUKjPED7g" source="_XuGL4C64EeiT_JUKjPED7g" target="_Xtyp4C64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_XxAWDi64EeiT_JUKjPED7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAWDy64EeiT_JUKjPED7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XxAWEC64EeiT_JUKjPED7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAWES64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XxAWEi64EeiT_JUKjPED7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxAWEy64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XxAWCy64EeiT_JUKjPED7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XxAWDC64EeiT_JUKjPED7g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XxAWDS64EeiT_JUKjPED7g" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxJf4C64EeiT_JUKjPED7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxJf4S64EeiT_JUKjPED7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_jA4uwC64EeiT_JUKjPED7g" type="4001" element="_i_fAkC64EeiT_JUKjPED7g" source="_Xt8a4C64EeiT_JUKjPED7g" target="_Xtyp4C64EeiT_JUKjPED7g">
+          <children xmi:type="notation:Node" xmi:id="_jA4uxC64EeiT_JUKjPED7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jA4uxS64EeiT_JUKjPED7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jA4uxi64EeiT_JUKjPED7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jA4uxy64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jA4uyC64EeiT_JUKjPED7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jA4uyS64EeiT_JUKjPED7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_jA4uwS64EeiT_JUKjPED7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_jA4uwi64EeiT_JUKjPED7g" fontColor="13606770" fontName="Segoe UI" fontHeight="20" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jA4uwy64EeiT_JUKjPED7g" points="[0, 0, -35, 0]$[35, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jA4uyi64EeiT_JUKjPED7g" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jA4uyy64EeiT_JUKjPED7g" id="(0.0,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_XXY8EC64EeiT_JUKjPED7g" name="New Quality" outgoingEdges="_XZwTlS64EeiT_JUKjPED7g" incomingEdges="_XZwTki64EeiT_JUKjPED7g" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@elements.0"/>
+      <semanticElements xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@elements.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XYM0YC64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Quality1.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_XYWlYC64EeiT_JUKjPED7g" name="New Quality" outgoingEdges="_XZwTmC64EeiT_JUKjPED7g" incomingEdges="_XZmikC64EeiT_JUKjPED7g" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@elements.1"/>
+      <semanticElements xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@elements.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XYWlYS64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Quality1.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@nodeMappings[name='DqualityNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_XYpgUC64EeiT_JUKjPED7g" name="Role container">
+      <target xmi:type="istarmodel1:RoleContainer" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.1"/>
+      <semanticElements xmi:type="istarmodel1:RoleContainer" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_XYpgUi64EeiT_JUKjPED7g" name="New Role Node" width="-1" height="-1">
+        <target xmi:type="istarmodel1:RoleNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.1/@has"/>
+        <semanticElements xmi:type="istarmodel1:RoleNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.1/@has"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XYpgUy64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/RoleSymbol1.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XYpgUS64EeiT_JUKjPED7g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_XYyqQC64EeiT_JUKjPED7g" name="New Task" incomingEdges="_XZwTlS64EeiT_JUKjPED7g _XZwTmC64EeiT_JUKjPED7g" width="10" height="10">
+        <target xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.1/@contains.0"/>
+        <semanticElements xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.1/@contains.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XYyqQS64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Task3.svg">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_XYyqQi64EeiT_JUKjPED7g" name="Agent container">
+      <target xmi:type="istarmodel1:AgentContainer" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0"/>
+      <semanticElements xmi:type="istarmodel1:AgentContainer" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_XYyqRC64EeiT_JUKjPED7g" name="Agent Name" width="-1" height="-1">
+        <target xmi:type="istarmodel1:AgentNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@has"/>
+        <semanticElements xmi:type="istarmodel1:AgentNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@has"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XYyqRS64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Agent11.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@borderedNodeMappings[name='AgentName']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XYyqQy64EeiT_JUKjPED7g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_XZAssC64EeiT_JUKjPED7g" name="New Task" outgoingEdges="_XZmikC64EeiT_JUKjPED7g" incomingEdges="_XZ9H4C64EeiT_JUKjPED7g _i_fAkC64EeiT_JUKjPED7g" width="10" height="10">
+        <target xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.0"/>
+        <semanticElements xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XZAssS64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Task3.svg">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_XZAssi64EeiT_JUKjPED7g" name="New Task" outgoingEdges="_XZwTki64EeiT_JUKjPED7g _i_fAkC64EeiT_JUKjPED7g" width="10" height="10">
+        <target xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.1"/>
+        <semanticElements xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XZAssy64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Task3.svg">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='TaskNode1']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_XZJ2oC64EeiT_JUKjPED7g" name="New Goal" outgoingEdges="_XZ9H4C64EeiT_JUKjPED7g" width="10" height="10">
+        <target xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.2"/>
+        <semanticElements xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.2"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XZJ2oS64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Quality1.svg">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='AgentContainer']/@subNodeMappings[name='QualityNode1']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_XZJ2oi64EeiT_JUKjPED7g">
+      <target xmi:type="istarmodel1:ActorContainerImp" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.2"/>
+      <semanticElements xmi:type="istarmodel1:ActorContainerImp" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_XZJ2pC64EeiT_JUKjPED7g" name="New Actor Node" width="-1" height="-1">
+        <target xmi:type="istarmodel1:RoleNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.2/@has"/>
+        <semanticElements xmi:type="istarmodel1:RoleNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.2/@has"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XZTnoC64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Actor11.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XZJ2oy64EeiT_JUKjPED7g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_XZTnoS64EeiT_JUKjPED7g" name="my goal" width="10" height="10">
+        <target xmi:type="istarmodel1:Goal" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.2/@contains.0"/>
+        <semanticElements xmi:type="istarmodel1:Goal" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.2/@contains.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XZTnoi64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Goal3.svg">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@subNodeMappings[name='GoalNode2']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XZmikC64EeiT_JUKjPED7g" name="DependsOn" sourceNode="_XZAssC64EeiT_JUKjPED7g" targetNode="_XYWlYC64EeiT_JUKjPED7g">
+      <target xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XZwTkC64EeiT_JUKjPED7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='DependencyEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XZwTkS64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='DependencyEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XZwTki64EeiT_JUKjPED7g" name="DependsOn" sourceNode="_XZAssi64EeiT_JUKjPED7g" targetNode="_XXY8EC64EeiT_JUKjPED7g">
+      <target xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XZwTky64EeiT_JUKjPED7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='DependencyEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XZwTlC64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='DependencyEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XZwTlS64EeiT_JUKjPED7g" name="DependsOn" sourceNode="_XXY8EC64EeiT_JUKjPED7g" targetNode="_XYyqQC64EeiT_JUKjPED7g">
+      <target xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@elements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XZwTli64EeiT_JUKjPED7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='DependencyEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XZwTly64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='DependencyEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XZwTmC64EeiT_JUKjPED7g" name="DependsOn" sourceNode="_XYWlYC64EeiT_JUKjPED7g" targetNode="_XYyqQC64EeiT_JUKjPED7g">
+      <target xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@elements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XZwTmS64EeiT_JUKjPED7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='DependencyEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XZwTmi64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='DependencyEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XZ9H4C64EeiT_JUKjPED7g" sourceNode="_XZJ2oC64EeiT_JUKjPED7g" targetNode="_XZAssC64EeiT_JUKjPED7g">
+      <target xmi:type="istarmodel1:Quality" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XZ9u8C64EeiT_JUKjPED7g" lineStyle="dash" targetArrow="NoDecoration" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='QualifiesAgentEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XZ9u8S64EeiT_JUKjPED7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='QualifiesAgentEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_i_fAkC64EeiT_JUKjPED7g" sourceNode="_XZAssi64EeiT_JUKjPED7g" targetNode="_XZAssC64EeiT_JUKjPED7g">
+      <target xmi:type="istarmodel1:Task" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.0/@contains.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_i_fAkS64EeiT_JUKjPED7g" targetArrow="InputFillClosedArrow" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='OrRefinementAgentEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_i_fAki64EeiT_JUKjPED7g" labelSize="20" showIcon="false" iconPath="/istarmodel1.design/icons/bigd.png" labelColor="114,159,207">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='OrRefinementAgentEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_jpDiAC64EeiT_JUKjPED7g">
+      <target xmi:type="istarmodel1:ActorContainerImp" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.3"/>
+      <semanticElements xmi:type="istarmodel1:ActorContainerImp" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_jpPvQC64EeiT_JUKjPED7g" name="['New Actor Node'/]" width="-1" height="-1">
+        <target xmi:type="istarmodel1:ActorNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.3/@has"/>
+        <semanticElements xmi:type="istarmodel1:ActorNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.3/@has"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jpPvQS64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/Actor11.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@borderedNodeMappings[name='ActorName']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_jpDiAS64EeiT_JUKjPED7g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='ActorContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_kcUyAC64EeiT_JUKjPED7g" name="['Role container'/]">
+      <target xmi:type="istarmodel1:RoleContainer" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.4"/>
+      <semanticElements xmi:type="istarmodel1:RoleContainer" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.4"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_kcUyAi64EeiT_JUKjPED7g" name="['New Role Node'/]" width="-1" height="-1">
+        <target xmi:type="istarmodel1:RoleNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.4/@has"/>
+        <semanticElements xmi:type="istarmodel1:RoleNode" href="SiKAMUS_example.istarmodel#//@diagrams.0/@actors.4/@has"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_kcUyAy64EeiT_JUKjPED7g" showIcon="false" labelColor="114,159,207" labelPosition="node" workspacePath="/istarmodel1.design/icons/RoleSymbol1.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@borderedNodeMappings[name='RoleNameBoarded']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_kcUyAS64EeiT_JUKjPED7g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']"/>
+    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_P_UuBAE0EeiWf6PJIWOftw"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/istarmodel1.design/description/istarmodel1.odesign#//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer"/>
     <target xmi:type="istarmodel1:IstarDiagram" href="SiKAMUS_example.istarmodel#//@diagrams.0"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_4_lqwA2HEeiqPvAg3WoZfA" name="IstarDiagramUpdated">
+  <diagram:DSemanticDiagram xmi:id="_4_lqwA2HEeiqPvAg3WoZfA" name="IstarDiagramUpdated" uid="_wbV-MC63EeiT_JUKjPED7g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_4_lqwQ2HEeiqPvAg3WoZfA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_4_lqwg2HEeiqPvAg3WoZfA"/>
     </ownedAnnotationEntries>
@@ -5735,7 +6229,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_k-O-oSq6EeifXJbykBQVLg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_k-O-oiq6EeifXJbykBQVLg" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k-O-oyq6EeifXJbykBQVLg" points="[-40, 30, 160, -125]$[-201, 155, -1, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k-O-oyq6EeifXJbykBQVLg" points="[0, 0, 175, -161]$[-175, 161, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k-QMxCq6EeifXJbykBQVLg" id="(0.4,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k-QMxSq6EeifXJbykBQVLg" id="(1.0,0.2727272727272727)"/>
         </edges>
@@ -5751,7 +6245,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Idd3YSq7EeifXJbykBQVLg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Idd3Yiq7EeifXJbykBQVLg" fontColor="13606770" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Idd3Yyq7EeifXJbykBQVLg" points="[0, 0, 185, 75]$[-195, -75, -10, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Idd3Yyq7EeifXJbykBQVLg" points="[0, 0, 190, 81]$[-190, -81, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IdfskCq7EeifXJbykBQVLg" id="(0.0,0.2727272727272727)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IdfskSq7EeifXJbykBQVLg" id="(1.0,0.26785714285714285)"/>
         </edges>
@@ -5767,7 +6261,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_J_7IoSq7EeifXJbykBQVLg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_J_7Ioiq7EeifXJbykBQVLg" fontColor="13606770" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J_7Ioyq7EeifXJbykBQVLg" points="[10, 0, 215, -87]$[-205, 87, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J_7Ioyq7EeifXJbykBQVLg" points="[0, 0, 180, -93]$[-180, 93, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J_8WwCq7EeifXJbykBQVLg" id="(0.0,0.26785714285714285)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J_8WwSq7EeifXJbykBQVLg" id="(1.0,0.5454545454545454)"/>
         </edges>
@@ -5783,7 +6277,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_KsvyYSq7EeifXJbykBQVLg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_KsvyYiq7EeifXJbykBQVLg" fontColor="13606770" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KsvyYyq7EeifXJbykBQVLg" points="[0, 0, 215, -60]$[-225, 60, -10, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KsvyYyq7EeifXJbykBQVLg" points="[0, 0, 220, -54]$[-220, 54, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KswZciq7EeifXJbykBQVLg" id="(0.0,0.8181818181818182)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KswZcyq7EeifXJbykBQVLg" id="(1.0,0.26785714285714285)"/>
         </edges>
