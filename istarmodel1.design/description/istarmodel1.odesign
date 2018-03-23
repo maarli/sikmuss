@@ -160,6 +160,7 @@
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             <centerLabelStyleDescription showIcon="false" labelExpression="DependsOn">
+              <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
             </centerLabelStyleDescription>
           </style>
@@ -720,6 +721,50 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationHelp" label="contribution" precondition="aql:preSource.contributesToHurt->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeHelp'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeHelp']" iconPath="/istarmodel1.design/icons/help.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToHelp" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationHurt" label="contribution" precondition="aql:preSource.contributesToMake->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " forceRefresh="true" edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeHurt'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeHurt']" iconPath="/istarmodel1.design/icons/hurt.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToHurt" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationMake" label="contribution" precondition="aql:preSource.contributesToHurt->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeMake'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeMake']" iconPath="/istarmodel1.design/icons/make.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToMake" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationBreak" label="contribution" precondition="aql:preSource.contributesToHelp->size()=0 and preSource.contributesToHurt->size()=0 and preSource.contributesToMake->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeBreak'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeBreak']" iconPath="/istarmodel1.design/icons/break.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToBreak" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
         <toolSections name="Tools">
           <ownedTools xsi:type="tool_1:DeleteElementDescription" name="unsetOrRefinement">
@@ -1061,52 +1106,6 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:element">
                 <subModelOperations xsi:type="tool:Unset" featureName="isa" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DNode).target/]"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-        </toolSections>
-        <toolSections name="Contribution Edges">
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationHelp" label="contribution" precondition="aql:preSource.contributesToHurt->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeHelp'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeHelp']" iconPath="/istarmodel1.design/icons/help.png">
-            <sourceVariable name="source"/>
-            <targetVariable name="target"/>
-            <sourceViewVariable name="sourceView"/>
-            <targetViewVariable name="targetView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
-                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToHelp" valueExpression="var:target"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationHurt" label="contribution" precondition="aql:preSource.contributesToMake->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " forceRefresh="true" edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeHurt'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeHurt']" iconPath="/istarmodel1.design/icons/hurt.png">
-            <sourceVariable name="source"/>
-            <targetVariable name="target"/>
-            <sourceViewVariable name="sourceView"/>
-            <targetViewVariable name="targetView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
-                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToHurt" valueExpression="var:target"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationMake" label="contribution" precondition="aql:preSource.contributesToHurt->size()=0 and preSource.contributesToHelp->size()=0 and preSource.contributesToBreak->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeMake'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeMake']" iconPath="/istarmodel1.design/icons/make.png">
-            <sourceVariable name="source"/>
-            <targetVariable name="target"/>
-            <sourceViewVariable name="sourceView"/>
-            <targetViewVariable name="targetView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
-                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToMake" valueExpression="var:target"/>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:EdgeCreationDescription" name="ContributionCreationBreak" label="contribution" precondition="aql:preSource.contributesToHelp->size()=0 and preSource.contributesToHurt->size()=0 and preSource.contributesToMake->size()=0 " edgeMappings="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionEdgeBreak'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@edgeMappings[name='ContributionAgentEdgeBreak']" iconPath="/istarmodel1.design/icons/break.png">
-            <sourceVariable name="source"/>
-            <targetVariable name="target"/>
-            <sourceViewVariable name="sourceView"/>
-            <targetViewVariable name="targetView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:source">
-                <subModelOperations xsi:type="tool:SetValue" featureName="contributesToBreak" valueExpression="var:target"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>

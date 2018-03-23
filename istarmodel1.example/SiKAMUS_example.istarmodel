@@ -12,6 +12,7 @@
       <has xsi:type="istarmodel1:RoleNode" name="New Role Node"/>
     </actors>
     <actors xsi:type="istarmodel1:ActorContainerImp" name="Actor Container">
+      <contains xsi:type="istarmodel1:Goal" name="my goal"/>
       <has xsi:type="istarmodel1:RoleNode" name="New Actor Node"/>
     </actors>
     <elements xsi:type="istarmodel1:Quality" depend="//@diagrams.0/@actors.1/@contains.0" name="New Quality"/>
