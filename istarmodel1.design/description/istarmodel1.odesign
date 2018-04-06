@@ -60,22 +60,25 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="AgentName" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::AgentNode">
+        <nodeMappings name="AgentName" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::AgentNode">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/Agent11.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="ActorName" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::ActorNode">
+        <nodeMappings name="ActorName" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::ActorNode">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/Actor11.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="RoleName" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::RoleNode">
+        <nodeMappings name="RoleName" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:nodes" domainClass="istarmodel1::RoleNode">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/RoleSymbol1.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="OrRefinementEdge" deletionDescription="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='unsetOrRefinement']" sourceMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='GoalNode'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@containerMappings[name='RoleContainer']/@subNodeMappings[name='TaskNode']" targetFinderExpression="feature:orRefinement" reconnections="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='reconnectOrRefinement']">
@@ -307,7 +310,7 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <containerMappings name="AgentContainer" semanticCandidatesExpression="feature:actors" domainClass="istarmodel1.AgentContainer" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDropInside']">
+        <containerMappings name="AgentContainer" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:actors" domainClass="istarmodel1.AgentContainer" dropDescriptions="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDrop'] //@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleDropInside']">
           <borderedNodeMappings name="AgentName" labelDirectEdit="//@ownedViewpoints[name='istar']/@ownedRepresentations[name='IstarDiagram']/@defaultLayer/@toolSections.4/@ownedTools[name='editName']" semanticCandidatesExpression="feature:has" domainClass="istarmodel1::AgentNode">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" workspacePath="/istarmodel1.design/icons/Agent11.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -447,7 +450,9 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::IstarDiagram)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::ActorNode" referenceName="nodes"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::ActorNode" referenceName="nodes">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Actor Node'/]"/>
+                  </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -458,7 +463,9 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::IstarDiagram)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleNode" referenceName="nodes"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleNode" referenceName="nodes">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Role Node'/]"/>
+                  </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -469,7 +476,9 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:If" conditionExpression="aql:container.oclIsTypeOf(istarmodel1::IstarDiagram)">
-                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentNode" referenceName="nodes"/>
+                  <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentNode" referenceName="nodes">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Agent Node'/]"/>
+                  </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
