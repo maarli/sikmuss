@@ -406,7 +406,6 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::ActorContainerImp" referenceName="actors">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Actor Container'/]"/>
                   <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.ActorNode" referenceName="has">
                     <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Actor Node'/]"/>
                   </subModelOperations>
@@ -420,7 +419,6 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::RoleContainer" referenceName="actors">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Role container'/]"/>
                   <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1.RoleNode" referenceName="has">
                     <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Role Node'/]"/>
                   </subModelOperations>
@@ -434,9 +432,8 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentContainer" referenceName="actors">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Agent container'/]"/>
                   <subModelOperations xsi:type="tool:CreateInstance" typeName="istarmodel1::AgentNode" referenceName="has">
-                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['Agent Name'/]"/>
+                    <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="['New Agent Node'/]"/>
                   </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
